@@ -273,7 +273,7 @@ main {
 .cards,
 .cardsBottom {
   display: flex;
-  width: 40%;
+  width: 80%;
   margin-top: 3rem;
   min-height: 50vh;
   flex-wrap: wrap;
@@ -341,7 +341,7 @@ main {
 .growPage {
   .cards,
   .cardsBottom {
-    width: 65%;
+    width: 80%;
     min-height: 100%;
     margin: 5rem 0;
     padding: 0 2.5rem;
@@ -392,7 +392,7 @@ main {
   }
 
   .cardsBottom {
-    width: 40%;
+    width: 80%;
   }
 }
 

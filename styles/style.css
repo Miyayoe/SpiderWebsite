@@ -357,7 +357,7 @@ main section.memberPage h4 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 40%;
+  width: 80%;
   margin-top: 3rem;
   min-height: 50vh;
   -ms-flex-wrap: wrap;
@@ -458,7 +458,7 @@ main section.memberPage h4 {
 
 .growPage .cards,
 .growPage .cardsBottom {
-  width: 65%;
+  width: 80%;
   min-height: 100%;
   margin: 5rem 0;
   padding: 0 2.5rem;
@@ -526,7 +526,7 @@ main section.memberPage h4 {
 }
 
 .growPage .cardsBottom {
-  width: 40%;
+  width: 80%;
 }
 
 footer {
