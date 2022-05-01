@@ -93,6 +93,8 @@ header {
       flex-direction: row;
       list-style-type: none;
       justify-content: space-around;
+      transition: 0.25s;
+
       li {
         a {
           color: #ffffff;
@@ -229,8 +231,8 @@ header {
             max-width: 160%;
             max-height: 160%;
             position: relative;
-            top: -20%;
-            left: 0%;
+            top: -25%;
+            left: -4%;
           }
           .cardBottom {
             display: flex;
@@ -278,7 +280,7 @@ header {
     color: #6d6d6d;
   }
   div.members {
-    margin-top: 1rem;
+    padding-top: 2rem;
     width: 100%;
     height: 100%;
   }
@@ -314,7 +316,7 @@ header {
     filter: drop-shadow(0rem 0.25rem 1.25rem rgba(0, 0, 0, 0.25));
     transition: 0.2s;
     &:hover {
-      transform: translate(-0.25rem, -0.25rem);
+      transform: translateY(-0.5rem) scale(1.05);
     }
     div {
       &.cardBottom {
@@ -356,7 +358,10 @@ header {
   width: 18rem;
   height: 25rem;
   min-width: 18rem;
-
+  transition: 0.2s;
+  &:hover {
+    transform: translateY(-0.5rem) scale(1.05);
+  }
   overflow: hidden;
   border-radius: 2rem;
   position: relative;
@@ -367,11 +372,38 @@ header {
     height: 30%;
     background-color: #fe4faa;
   }
+  .tag {
+    width: 4.5rem;
+    height: 2.5rem;
+    position: absolute;
+    right: 0;
+    background-color: #c4c4c4;
+    p {
+      color: #fff;
+      font-size: 1.5rem;
+    }
+  }
   .content {
-    margin-top: 35%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30%;
     p {
       font-size: 1.5rem;
       font-family: "../assets/Fonts/TaipeiSansTCBeta.ttf", sans-serif;
+    }
+    span {
+      margin: 0.5rem;
+      display: flex;
+      flex-direction: row;
+      font-size: 1rem;
+      font-family: "../assets/Fonts/TaipeiSansTCBeta.ttf", sans-serif;
+      text-align: left;
+      font-weight: 600;
+      color: #929292;
+      align-items: center;
+      img {
+        width: 1.75rem;
+      }
     }
   }
   .memberImgContainer {
@@ -456,10 +488,29 @@ footer {
       width: 100%;
       background-color: #000000;
       padding: 1rem 1.5rem 0rem 1rem;
+
+      #menu {
+        visibility: hidden;
+        overflow-y: hidden;
+        width: 120%;
+        height: 0px;
+      }
+      &.active {
+        #menu {
+          height: calc(40vh - 70px);
+          visibility: visible;
+          z-index: 200;
+        }
+      }
       ul {
         flex-direction: column;
         li {
-          display: none;
+          &:hover {
+            background-color: rgb(39, 39, 39);
+            a {
+              font-size: 1.75rem;
+            }
+          }
           a {
             font-size: 1.5rem;
           }
