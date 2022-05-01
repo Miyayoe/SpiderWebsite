@@ -8,12 +8,16 @@
     <title>蜘蛛專業襲擊陪打|艾爾最快速的襲擊團隊</title>
     <meta name="description" content="我們提供襲擊團隊租借服務，幫助沒有時間找團隊的您。">
     <meta name="robots" content="index,follow">
-    <link rel="stylesheet" href="/styles/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="/styles/style.css">
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
     <script>
         isOpen = false;
+        var swiper;
         window.onload = () => {
             let listButton = document.querySelector("#listButton");
             listButton.addEventListener('click', () => {
@@ -34,7 +38,45 @@
                     isOpen = !isOpen;
                 }
             })
+            let num = Math.floor(document.body.clientWidth / 350);
+
+            swiper = new Swiper(".members", {
+                slidesPerView: 1,
+                spaceBetween: 0,
+                // Responsive breakpoints
+                breakpoints: {
+                    // when window width is >= 320px
+                    650: {
+                        slidesPerView: 2,
+                        spaceBetween: 0
+                    },
+                    // when window width is >= 480px
+                    950: {
+                        slidesPerView: 3,
+                        spaceBetween: 0
+                    },
+                    // when window width is >= 640px
+                    1500: {
+                        slidesPerView: 4,
+                        spaceBetween: 0
+                    },
+                    1900: {
+                        slidesPerView: 5,
+                        spaceBetween: 0
+                    },
+                    2100: {
+                        slidesPerView: 6,
+                        spaceBetween: 0
+                    }
+                },
+
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+            });
         }
+
     </script>
 
 <body>
@@ -180,10 +222,147 @@
                     </div>
                 </div>
         </section>
+        <section class="memberPage">
+            <h2>團隊介紹</h2>
+            <h4>團隊機體</h4>
+            <!-- Swiper -->
+            <div class="swiper members">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="memberCard">
+                            <div class="memberColor"></div>
+                            <div class="memberImgContainer">
+                                <div>
+                                    <img style="transform: translate(10%,35%) scale(2);" src="./assets/Images/EW.png"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="content">
+                                <p>阿丹洗澡完還是好臭</p>
+                                <p>阿丹傷害好多人</p>
+                                <p>阿丹是人是狗分不清</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="memberCard">
+                            <div class="memberColor"></div>
+                            <div class="memberImgContainer">
+                                <div>
+                                    <img style="transform: translate(10%,35%) scale(2);" src="./assets/Images/EW.png"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="content">
+                                <p>阿丹洗澡完還是好臭</p>
+                                <p>阿丹傷害好多人</p>
+                                <p>阿丹是人是狗分不清</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="memberCard">
+                            <div class="memberColor"></div>
+                            <div class="memberImgContainer">
+                                <div>
+                                    <img style="transform: translate(10%,35%) scale(2);" src="./assets/Images/EW.png"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="content">
+                                <p>阿丹洗澡完還是好臭</p>
+                                <p>阿丹傷害好多人</p>
+                                <p>阿丹是人是狗分不清</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="memberCard">
+                            <div class="memberColor"></div>
+                            <div class="memberImgContainer">
+                                <div>
+                                    <img style="transform: translate(10%,35%) scale(2);" src="./assets/Images/EW.png"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="content">
+                                <p>阿丹洗澡完還是好臭</p>
+                                <p>阿丹傷害好多人</p>
+                                <p>阿丹是人是狗分不清</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="memberCard">
+                            <div class="memberColor"></div>
+                            <div class="memberImgContainer">
+                                <div>
+                                    <img style="transform: translate(10%,35%) scale(2);" src="./assets/Images/EW.png"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="content">
+                                <p>阿丹洗澡完還是好臭</p>
+                                <p>阿丹傷害好多人</p>
+                                <p>阿丹是人是狗分不清</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="memberCard">
+                            <div class="memberColor"></div>
+                            <div class="memberImgContainer">
+                                <div>
+                                    <img style="transform: translate(10%,35%) scale(2);" src="./assets/Images/EW.png"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="content">
+                                <p>阿丹洗澡完還是好臭</p>
+                                <p>阿丹傷害好多人</p>
+                                <p>阿丹是人是狗分不清</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="memberCard">
+                            <div class="memberColor"></div>
+                            <div class="memberImgContainer">
+                                <div>
+                                    <img style="transform: translate(10%,35%) scale(2);" src="./assets/Images/EW.png"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="content">
+                                <p>阿丹洗澡完還是好臭</p>
+                                <p>阿丹傷害好多人</p>
+                                <p>阿丹是人是狗分不清</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="memberCard">
+                            <div class="memberColor"></div>
+                            <div class="memberImgContainer">
+                                <div>
+                                    <img style="transform: translate(10%,35%) scale(2);" src="./assets/Images/EW.png"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="content">
+                                <p>阿丹洗澡完還是好臭</p>
+                                <p>阿丹傷害好多人</p>
+                                <p>阿丹是人是狗分不清</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
     </main>
-    <footer>
-
-    </footer>
+    <!-- <footer>
+    </footer> -->
 </body>
 
 </html>

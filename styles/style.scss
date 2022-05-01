@@ -208,17 +208,87 @@ main {
         }
       }
     }
+    &.memberPage {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding-top: 10rem;
+      min-height: 100vh;
+      margin: 0 1rem;
+
+      h2 {
+        font-size: 3rem;
+        font-weight: bold;
+        font-family: "../assets/Fonts/TaipeiSansTCBeta.ttf", sans-serif;
+      }
+      h4 {
+        font-size: 1.5rem;
+        font-family: "../assets/Fonts/TaipeiSansTCBeta.ttf", sans-serif;
+        color: #6d6d6d;
+      }
+      div.members {
+        margin-top: 1rem;
+        width: 100%;
+        height: 100%;
+      }
+    }
   }
 }
+.memberCard {
+  width: 18rem;
+  height: 25rem;
+  min-width: 18rem;
 
+  overflow: hidden;
+  border-radius: 2rem;
+  position: relative;
+  margin: 1rem;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.25);
+  .memberColor {
+    width: 100%;
+    height: 30%;
+    background-color: #fe4faa;
+  }
+  .content {
+    margin-top: 35%;
+    p {
+      font-size: 1.5rem;
+      font-family: "../assets/Fonts/TaipeiSansTCBeta.ttf", sans-serif;
+    }
+  }
+  .memberImgContainer {
+    background-color: #fff;
+    width: 10rem;
+    height: 10rem;
+    min-width: 10rem;
+    min-height: 10rem;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.25);
+    div {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      img {
+        position: absolute;
+        z-index: 5;
+      }
+    }
+  }
+}
 .cards,
 .cardsBottom {
   display: flex;
-  width: 40%;
+  width: 80%;
   margin-top: 3rem;
   min-height: 50vh;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: center;
+
   align-items: center;
 
   .card {
@@ -281,9 +351,10 @@ main {
 .growPage {
   .cards,
   .cardsBottom {
-    width: 70%;
+    width: 80%;
     min-height: 100%;
     margin: 5rem 0;
+    padding: 0 2.5rem;
     .card {
       overflow: hidden;
       max-width: 12rem;
@@ -292,7 +363,7 @@ main {
       height: 13rem;
       min-width: 12rem;
       min-height: 13rem;
-      margin: 1rem 0;
+      margin: 1rem 1vw;
       div {
         &.imgContainer {
           width: 100%;
@@ -311,7 +382,7 @@ main {
             text-align: left;
             padding: 0 0.5rem;
             h4 {
-              font-size: 1.2rem;
+              font-size: 1.1rem;
             }
             p {
               text-align: left;
@@ -331,7 +402,7 @@ main {
   }
 
   .cardsBottom {
-    width: 40%;
+    width: 80%;
   }
 }
 
@@ -375,7 +446,15 @@ footer {
       }
       &.clearPage {
         span {
-          font-size: 1.25rem;
+          font-size: 1.2rem;
+        }
+      }
+      &.growPage {
+        p {
+          font-size: 1.2rem;
+          span {
+            font-size: 1rem;
+          }
         }
       }
     }
@@ -405,4 +484,39 @@ footer {
       }
     }
   }
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 1rem;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.swiper-pagination-bullet-active {
+  background-color: #000;
+}
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
