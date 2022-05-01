@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>蜘蛛專業襲擊陪打|艾爾最快速的襲擊團隊</title>
+    <meta name="description" content="我們提供襲擊團隊租借服務，幫助沒有時間找團隊的您。">
+    <meta name="robots" content="index,follow">
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&display=swap" rel="stylesheet">
+    <script>
+        isOpen = false;
+        window.onload = () => {
+            let listButton = document.querySelector("#listButton");
+            listButton.addEventListener('click', () => {
+                document.querySelector('header nav #listButton div').classList.toggle('active');
+                if (!isOpen) {
+                    document.querySelectorAll('header nav ul li').forEach((item, index) => {
+                        setTimeout(() => {
+                            item.setAttribute("style", "display:flex;");
+                        }, 30 * index);
+                    })
+                    isOpen = !isOpen;
+                } else {
+                    document.querySelectorAll('header nav ul li').forEach((item, index) => {
+                        setTimeout(() => {
+                            item.setAttribute("style", "display:none;");
+                        }, 30 * index);
+                    })
+                    isOpen = !isOpen;
+                }
+            })
+        }
+    </script>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="/assets/Icons/logo.png" alt="">
+            <h1 style="font-family: './assets/Fonts/jf-openhuninn-1.1.ttf'; color: white;">蜘蛛專業襲擊陪打</h1>
+        </div>
+
+        <nav>
+            <button id="listButton">
+                <div class="toggle"><span></span><span></span><span></span></div>
+            </button>
+
+            <ul>
+                <li><a href="#">首頁</a></li>
+                <li><a href="#">通關方案</a></li>
+                <li><a href="#">成長方案</a></li>
+                <li><a href="#">團隊介紹</a></li>
+                <li><a href="#">可預約時間</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="backImage">
+            <div class="filter"></div>
+            <h3>蜘蛛專業襲擊陪打</h3>
+            <h4>熱衷於協助沒有時間、工作或課業繁忙的您<br>不必再害怕找不到學習機會，我們將手把手帶您從襲擊新手蛻變成為老手<br>從獲得武器到成長階段，最完整的一條龍服務</h4>
+            <a href="https://www.8591.com.tw/mallList-wareDetail.html?id=2379314779" class="start">立即報名</a>
+        </section>
+        <section class="secondPage">
+            <h2>
+                通關方案
+            </h2>
+            <span>
+                不熟悉者保證活著通關，亦可索取我們製作的攻略教學<br>通關團可進行輔助玩法教學、輸出建議<br>帶團打手皆為台服頂尖玩家，容錯率極高，不用擔心害怕自己不熟悉犯錯<br>通關後有不明白的地方也歡迎詢問
+            </span>
+            <section class="cards">
+                <div class="card">
+                    <img src="./assets/Images/one_round.png" alt="">
+                    <div class="cardBottom">
+                        <h4>155+156 一輪通關方案</h4>
+                        <p>約10分鐘</p>
+                        <p class="price">$150</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./assets/Images/two_round.png" alt="">
+                    <div class="cardBottom">
+                        <h4>155+156 一輪通關方案</h4>
+                        <p>約30分鐘</p>
+                        <p class="price">$400<span
+                                style="text-decoration:line-through; font-size: 1rem; margin: 0 0.25rem;">$450</span>
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
