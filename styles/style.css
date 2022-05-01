@@ -190,7 +190,7 @@ main section.backImage a.start {
   text-decoration: none;
   border-radius: 1rem;
   cursor: pointer;
-  font-family: "../assets/Fonts/TaipeiSansTCBeta-Regular.ttf", sans-serif;
+  font-family: "../assets/Fonts/TaipeiSansTCBeta-Regular.ttf", sans-serif;
 }
 
 main section.backImage a.start:hover {
@@ -273,6 +273,85 @@ main section.growPage p span {
   color: #000;
 }
 
+main section.memberPage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  padding-top: 10rem;
+  min-height: 100vh;
+  margin: 0 1rem;
+}
+
+main section.memberPage h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: "../assets/Fonts/TaipeiSansTCBeta.ttf", sans-serif;
+}
+
+main section.memberPage h4 {
+  font-size: 1.5rem;
+  font-family: "../assets/Fonts/TaipeiSansTCBeta.ttf", sans-serif;
+  color: #6d6d6d;
+}
+
+.memberCard {
+  width: 18rem;
+  height: 25rem;
+  overflow: hidden;
+  border-radius: 2rem;
+  position: relative;
+  -webkit-box-shadow: 0 0 1rem rgba(0, 0, 0, 0.25);
+          box-shadow: 0 0 1rem rgba(0, 0, 0, 0.25);
+}
+
+.memberCard .memberColor {
+  width: 100%;
+  height: 30%;
+  background-color: #fe4faa;
+}
+
+.memberCard .content {
+  margin-top: 35%;
+}
+
+.memberCard .content p {
+  font-size: 1.5rem;
+  font-family: "../assets/Fonts/TaipeiSansTCBeta.ttf", sans-serif;
+}
+
+.memberCard .memberImgContainer {
+  background-color: #fff;
+  width: 12rem;
+  height: 12rem;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  border-radius: 50%;
+  overflow: hidden;
+  -webkit-box-shadow: 0 0 1rem rgba(0, 0, 0, 0.25);
+          box-shadow: 0 0 1rem rgba(0, 0, 0, 0.25);
+}
+
+.memberCard .memberImgContainer div {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.memberCard .memberImgContainer div img {
+  position: absolute;
+  z-index: 5;
+}
+
 .cards,
 .cardsBottom {
   display: -webkit-box;
@@ -283,9 +362,9 @@ main section.growPage p span {
   min-height: 50vh;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -379,9 +458,10 @@ main section.growPage p span {
 
 .growPage .cards,
 .growPage .cardsBottom {
-  width: 70%;
+  width: 65%;
   min-height: 100%;
   margin: 5rem 0;
+  padding: 0 2.5rem;
 }
 
 .growPage .cards .card,
@@ -393,7 +473,7 @@ main section.growPage p span {
   height: 13rem;
   min-width: 12rem;
   min-height: 13rem;
-  margin: 1vw 0;
+  margin: 1rem 1vw;
 }
 
 .growPage .cards .card div.imgContainer,
@@ -427,7 +507,7 @@ main section.growPage p span {
 
 .growPage .cards .card div.imgContainer .cardBottom h4,
 .growPage .cardsBottom .card div.imgContainer .cardBottom h4 {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 .growPage .cards .card div.imgContainer .cardBottom p,
@@ -486,7 +566,13 @@ footer {
     font-size: 1.75rem;
   }
   main section.clearPage span {
-    font-size: 1.25rem;
+    font-size: 1.2rem;
+  }
+  main section.growPage p {
+    font-size: 1.2rem;
+  }
+  main section.growPage p span {
+    font-size: 1rem;
   }
   header nav {
     width: 100%;

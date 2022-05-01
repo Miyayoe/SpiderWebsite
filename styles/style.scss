@@ -208,9 +208,68 @@ main {
         }
       }
     }
+    &.memberPage {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding-top: 10rem;
+      min-height: 100vh;
+      margin: 0 1rem;
+
+      h2 {
+        font-size: 3rem;
+        font-weight: bold;
+        font-family: "../assets/Fonts/TaipeiSansTCBeta.ttf", sans-serif;
+      }
+      h4 {
+        font-size: 1.5rem;
+        font-family: "../assets/Fonts/TaipeiSansTCBeta.ttf", sans-serif;
+        color: #6d6d6d;
+      }
+    }
   }
 }
-
+.memberCard {
+  width: 18rem;
+  height: 25rem;
+  overflow: hidden;
+  border-radius: 2rem;
+  position: relative;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.25);
+  .memberColor {
+    width: 100%;
+    height: 30%;
+    background-color: #fe4faa;
+  }
+  .content {
+    margin-top: 35%;
+    p {
+      font-size: 1.5rem;
+      font-family: "../assets/Fonts/TaipeiSansTCBeta.ttf", sans-serif;
+    }
+  }
+  .memberImgContainer {
+    background-color: #fff;
+    width: 12rem;
+    height: 12rem;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.25);
+    div {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      img {
+        position: absolute;
+        z-index: 5;
+      }
+    }
+  }
+}
 .cards,
 .cardsBottom {
   display: flex;
@@ -218,7 +277,8 @@ main {
   margin-top: 3rem;
   min-height: 50vh;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: center;
+
   align-items: center;
 
   .card {
@@ -281,9 +341,10 @@ main {
 .growPage {
   .cards,
   .cardsBottom {
-    width: 70%;
+    width: 65%;
     min-height: 100%;
     margin: 5rem 0;
+    padding: 0 2.5rem;
     .card {
       overflow: hidden;
       max-width: 12rem;
@@ -292,7 +353,7 @@ main {
       height: 13rem;
       min-width: 12rem;
       min-height: 13rem;
-      margin: 1vw 0;
+      margin: 1rem 1vw;
       div {
         &.imgContainer {
           width: 100%;
@@ -311,7 +372,7 @@ main {
             text-align: left;
             padding: 0 0.5rem;
             h4 {
-              font-size: 1.2rem;
+              font-size: 1.1rem;
             }
             p {
               text-align: left;
@@ -375,7 +436,15 @@ footer {
       }
       &.clearPage {
         span {
-          font-size: 1.25rem;
+          font-size: 1.2rem;
+        }
+      }
+      &.growPage {
+        p {
+          font-size: 1.2rem;
+          span {
+            font-size: 1rem;
+          }
         }
       }
     }
