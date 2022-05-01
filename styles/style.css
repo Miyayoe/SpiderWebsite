@@ -143,7 +143,7 @@ header nav ul li a {
   z-index: 101;
 }
 
-main section.backImage {
+.backImage {
   min-height: 100vh;
   width: 100%;
   background-image: url(../assets/Images/FirstPage.png);
@@ -167,21 +167,21 @@ main section.backImage {
   text-align: center;
 }
 
-main section.backImage h3 {
+.backImage h3 {
   font-size: 4rem;
   color: white;
   margin: 1rem;
   font-family: "../assets/Fonts/TaipeiSansTCBeta-Bold.ttf", sans-serif;
 }
 
-main section.backImage h4 {
+.backImage h4 {
   font-size: 1.75rem;
   font-weight: 100;
   color: white;
   font-family: "../assets/Fonts/TaipeiSansTCBeta-Regular.ttf", sans-serif;
 }
 
-main section.backImage a.start {
+.backImage a.start {
   background-color: #00d1ff;
   padding: 1.25rem 2.5rem;
   margin: 2rem;
@@ -190,14 +190,14 @@ main section.backImage a.start {
   text-decoration: none;
   border-radius: 1rem;
   cursor: pointer;
-  font-family: "../assets/Fonts/TaipeiSansTCBeta-Regular.ttf", sans-serif;
+  font-family: "../assets/Fonts/TaipeiSansTCBeta-Regular.ttf", sans-serif;
 }
 
-main section.backImage a.start:hover {
+.backImage a.start:hover {
   background-color: #04b0d6;
 }
 
-main section.backImage div.filter {
+.backImage div.filter {
   background-color: rgba(0, 0, 0, 0.5);
   -webkit-backdrop-filter: blur(5px);
           backdrop-filter: blur(5px);
@@ -208,7 +208,7 @@ main section.backImage div.filter {
   z-index: -1;
 }
 
-main section.clearPage {
+.clearPage {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -224,20 +224,20 @@ main section.clearPage {
   min-height: 100vh;
 }
 
-main section.clearPage h2 {
+.clearPage h2 {
   font-size: 3rem;
   font-family: "../assets/Fonts/TaipeiSansTCBeta-Bold.ttf", sans-serif;
   font-weight: bold;
   margin: 0.5rem 0rem;
 }
 
-main section.clearPage span {
+.clearPage span {
   font-size: 1.5rem;
   font-family: "../assets/Fonts/TaipeiSansTCBeta.ttf", sans-serif;
   color: #6d6d6d;
 }
 
-main section.growPage {
+.growPage {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -254,26 +254,87 @@ main section.growPage {
   margin: 0 1rem;
 }
 
-main section.growPage h2 {
+.growPage h2 {
   font-size: 3rem;
   font-family: "../assets/Fonts/TaipeiSansTCBeta-Bold.ttf", sans-serif;
   font-weight: bold;
   margin: 0.5rem 0rem;
 }
 
-main section.growPage p {
+.growPage p {
   font-size: 1.5rem;
   font-family: "../assets/Fonts/TaipeiSansTCBeta.ttf", sans-serif;
   color: #6d6d6d;
 }
 
-main section.growPage p span {
+.growPage p span {
   font-size: 1.25rem;
-  font-family: "../assets/Fonts/TaipeiSansTCBeta.ttf", sans-serif;
+  font-family: "../assets/Fonts/TaipeiSansTCBeta-Bold.ttf", sans-serif;
   color: #000;
 }
 
-main section.memberPage {
+.growPage .cards {
+  width: 80%;
+  min-height: 100%;
+  margin: 5rem 0;
+  padding: 0 2.5rem;
+}
+
+.growPage .cards .card {
+  overflow: hidden;
+  max-width: 12rem;
+  max-height: 13rem;
+  width: 12rem;
+  height: 13rem;
+  min-width: 12rem;
+  min-height: 13rem;
+  margin: 1rem 1vw;
+}
+
+.growPage .cards .card div.imgContainer {
+  width: 100%;
+  height: 50%;
+  overflow: hidden;
+}
+
+.growPage .cards .card div.imgContainer img {
+  max-width: 160%;
+  max-height: 160%;
+  position: relative;
+  top: -20%;
+  left: 0%;
+}
+
+.growPage .cards .card div.imgContainer .cardBottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: left;
+  padding: 0 0.5rem;
+}
+
+.growPage .cards .card div.imgContainer .cardBottom h4 {
+  font-size: 1.1rem;
+}
+
+.growPage .cards .card div.imgContainer .cardBottom p {
+  text-align: left;
+  font-size: 1rem;
+  color: #736e6e;
+  margin: 0.25rem 0;
+}
+
+.growPage .cards .card div.imgContainer .cardBottom p.price {
+  margin: 0 0 0.5rem 1rem;
+  color: #000;
+  font-size: 1.25rem;
+}
+
+.memberPage {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -290,76 +351,22 @@ main section.memberPage {
   margin: 0 1rem;
 }
 
-main section.memberPage h2 {
+.memberPage h2 {
   font-size: 3rem;
   font-weight: bold;
   font-family: "../assets/Fonts/TaipeiSansTCBeta.ttf", sans-serif;
 }
 
-main section.memberPage h4 {
+.memberPage h4 {
   font-size: 1.5rem;
   font-family: "../assets/Fonts/TaipeiSansTCBeta.ttf", sans-serif;
   color: #6d6d6d;
 }
 
-main section.memberPage div.members {
+.memberPage div.members {
   margin-top: 1rem;
   width: 100%;
   height: 100%;
-}
-
-.memberCard {
-  width: 18rem;
-  height: 25rem;
-  min-width: 18rem;
-  overflow: hidden;
-  border-radius: 2rem;
-  position: relative;
-  margin: 1rem;
-  -webkit-box-shadow: 0 0 1rem rgba(0, 0, 0, 0.25);
-          box-shadow: 0 0 1rem rgba(0, 0, 0, 0.25);
-}
-
-.memberCard .memberColor {
-  width: 100%;
-  height: 30%;
-  background-color: #fe4faa;
-}
-
-.memberCard .content {
-  margin-top: 35%;
-}
-
-.memberCard .content p {
-  font-size: 1.5rem;
-  font-family: "../assets/Fonts/TaipeiSansTCBeta.ttf", sans-serif;
-}
-
-.memberCard .memberImgContainer {
-  background-color: #fff;
-  width: 10rem;
-  height: 10rem;
-  min-width: 10rem;
-  min-height: 10rem;
-  position: absolute;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  border-radius: 50%;
-  overflow: hidden;
-  -webkit-box-shadow: 0 0 1rem rgba(0, 0, 0, 0.25);
-          box-shadow: 0 0 1rem rgba(0, 0, 0, 0.25);
-}
-
-.memberCard .memberImgContainer div {
-  position: relative;
-  width: 100%;
-  height: 100%;
-}
-
-.memberCard .memberImgContainer div img {
-  position: absolute;
-  z-index: 5;
 }
 
 .cards,
@@ -466,77 +473,58 @@ main section.memberPage div.members {
   top: -5%;
 }
 
-.growPage .cards,
-.growPage .cardsBottom {
-  width: 80%;
-  min-height: 100%;
-  margin: 5rem 0;
-  padding: 0 2.5rem;
-}
-
-.growPage .cards .card,
-.growPage .cardsBottom .card {
+.memberCard {
+  width: 18rem;
+  height: 25rem;
+  min-width: 18rem;
   overflow: hidden;
-  max-width: 12rem;
-  max-height: 13rem;
-  width: 12rem;
-  height: 13rem;
-  min-width: 12rem;
-  min-height: 13rem;
-  margin: 1rem 1vw;
-}
-
-.growPage .cards .card div.imgContainer,
-.growPage .cardsBottom .card div.imgContainer {
-  width: 100%;
-  height: 50%;
-  overflow: hidden;
-}
-
-.growPage .cards .card div.imgContainer img,
-.growPage .cardsBottom .card div.imgContainer img {
-  max-width: 160%;
-  max-height: 160%;
+  border-radius: 2rem;
   position: relative;
-  top: -20%;
-  left: 0%;
+  margin: 1rem;
+  -webkit-box-shadow: 0 0 1rem rgba(0, 0, 0, 0.25);
+          box-shadow: 0 0 1rem rgba(0, 0, 0, 0.25);
 }
 
-.growPage .cards .card div.imgContainer .cardBottom,
-.growPage .cardsBottom .card div.imgContainer .cardBottom {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  text-align: left;
-  padding: 0 0.5rem;
+.memberCard .memberColor {
+  width: 100%;
+  height: 30%;
+  background-color: #fe4faa;
 }
 
-.growPage .cards .card div.imgContainer .cardBottom h4,
-.growPage .cardsBottom .card div.imgContainer .cardBottom h4 {
-  font-size: 1.1rem;
+.memberCard .content {
+  margin-top: 35%;
 }
 
-.growPage .cards .card div.imgContainer .cardBottom p,
-.growPage .cardsBottom .card div.imgContainer .cardBottom p {
-  text-align: left;
-  font-size: 1rem;
-  color: #736e6e;
-  margin: 0.25rem 0;
+.memberCard .content p {
+  font-size: 1.5rem;
+  font-family: "../assets/Fonts/TaipeiSansTCBeta.ttf", sans-serif;
 }
 
-.growPage .cards .card div.imgContainer .cardBottom p.price,
-.growPage .cardsBottom .card div.imgContainer .cardBottom p.price {
-  margin: 0 0 0.5rem 1rem;
-  color: #000;
-  font-size: 1.25rem;
+.memberCard .memberImgContainer {
+  background-color: #fff;
+  width: 10rem;
+  height: 10rem;
+  min-width: 10rem;
+  min-height: 10rem;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  border-radius: 50%;
+  overflow: hidden;
+  -webkit-box-shadow: 0 0 1rem rgba(0, 0, 0, 0.25);
+          box-shadow: 0 0 1rem rgba(0, 0, 0, 0.25);
 }
 
-.growPage .cardsBottom {
-  width: 80%;
+.memberCard .memberImgContainer div {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.memberCard .memberImgContainer div img {
+  position: absolute;
+  z-index: 5;
 }
 
 footer {

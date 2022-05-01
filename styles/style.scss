@@ -105,181 +105,185 @@ header {
   }
 }
 
-main {
-  section {
-    &.backImage {
-      min-height: 100vh;
-      width: 100%;
-      background-image: url(../assets/Images/FirstPage.png);
-      background-size: cover;
-      background-position: center;
-      position: relative;
-      z-index: 0;
-
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-      text-align: center;
-
-      h3 {
-        font-size: 4rem;
-        color: white;
-        margin: 1rem;
-        font-family: "../assets/Fonts/TaipeiSansTCBeta-Bold.ttf", sans-serif;
-      }
-      h4 {
-        font-size: 1.75rem;
-        font-weight: 100;
-        color: white;
-        font-family: "../assets/Fonts/TaipeiSansTCBeta-Regular.ttf", sans-serif;
-      }
-      a {
-        &.start {
-          background-color: #00d1ff;
-          padding: 1.25rem 2.5rem;
-          margin: 2rem;
-          font-size: 2rem;
-          color: white;
-          text-decoration: none;
-          border-radius: 1rem;
-          cursor: pointer;
-          font-family: "../assets/Fonts/TaipeiSansTCBeta-Regular.ttf",
-            sans-serif;
-        }
-        &.start:hover {
-          background-color: #04b0d6;
-        }
-      }
-
-      div {
-        &.filter {
-          background-color: rgba($color: #000000, $alpha: 0.5);
-          backdrop-filter: blur(5px);
-          width: 100%;
-          min-height: 100vh;
-          position: absolute;
-          top: 0;
-          z-index: -1;
-        }
-      }
-    }
-    &.clearPage {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-      padding-top: 10rem;
-      min-height: 100vh;
-      h2 {
-        font-size: 3rem;
-        font-family: "../assets/Fonts/TaipeiSansTCBeta-Bold.ttf", sans-serif;
-        font-weight: bold;
-        margin: 0.5rem 0rem;
-      }
-      span {
-        font-size: 1.5rem;
-        font-family: "../assets/Fonts/TaipeiSansTCBeta.ttf", sans-serif;
-        color: #6d6d6d;
-      }
-    }
-    &.growPage {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-      padding-top: 10rem;
-      min-height: 100vh;
-      margin: 0 1rem;
-      h2 {
-        font-size: 3rem;
-        font-family: "../assets/Fonts/TaipeiSansTCBeta-Bold.ttf", sans-serif;
-        font-weight: bold;
-        margin: 0.5rem 0rem;
-      }
-      p {
-        font-size: 1.5rem;
-        font-family: "../assets/Fonts/TaipeiSansTCBeta.ttf", sans-serif;
-        color: #6d6d6d;
-        span {
-          font-size: 1.25rem;
-          font-family: "../assets/Fonts/TaipeiSansTCBeta.ttf", sans-serif;
-          color: #000;
-        }
-      }
-    }
-    &.memberPage {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-      padding-top: 10rem;
-      min-height: 100vh;
-      margin: 0 1rem;
-
-      h2 {
-        font-size: 3rem;
-        font-weight: bold;
-        font-family: "../assets/Fonts/TaipeiSansTCBeta.ttf", sans-serif;
-      }
-      h4 {
-        font-size: 1.5rem;
-        font-family: "../assets/Fonts/TaipeiSansTCBeta.ttf", sans-serif;
-        color: #6d6d6d;
-      }
-      div.members {
-        margin-top: 1rem;
-        width: 100%;
-        height: 100%;
-      }
-    }
-  }
-}
-.memberCard {
-  width: 18rem;
-  height: 25rem;
-  min-width: 18rem;
-
-  overflow: hidden;
-  border-radius: 2rem;
+.backImage {
+  min-height: 100vh;
+  width: 100%;
+  background-image: url(../assets/Images/FirstPage.png);
+  background-size: cover;
+  background-position: center;
   position: relative;
-  margin: 1rem;
-  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.25);
-  .memberColor {
-    width: 100%;
-    height: 30%;
-    background-color: #fe4faa;
+  z-index: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+
+  h3 {
+    font-size: 4rem;
+    color: white;
+    margin: 1rem;
+    font-family: "../assets/Fonts/TaipeiSansTCBeta-Bold.ttf", sans-serif;
   }
-  .content {
-    margin-top: 35%;
-    p {
-      font-size: 1.5rem;
-      font-family: "../assets/Fonts/TaipeiSansTCBeta.ttf", sans-serif;
+  h4 {
+    font-size: 1.75rem;
+    font-weight: 100;
+    color: white;
+    font-family: "../assets/Fonts/TaipeiSansTCBeta-Regular.ttf", sans-serif;
+  }
+  a {
+    &.start {
+      background-color: #00d1ff;
+      padding: 1.25rem 2.5rem;
+      margin: 2rem;
+      font-size: 2rem;
+      color: white;
+      text-decoration: none;
+      border-radius: 1rem;
+      cursor: pointer;
+      font-family: "../assets/Fonts/TaipeiSansTCBeta-Regular.ttf", sans-serif;
+    }
+    &.start:hover {
+      background-color: #04b0d6;
     }
   }
-  .memberImgContainer {
-    background-color: #fff;
-    width: 10rem;
-    height: 10rem;
-    min-width: 10rem;
-    min-height: 10rem;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border-radius: 50%;
-    overflow: hidden;
-    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.25);
-    div {
-      position: relative;
+
+  div {
+    &.filter {
+      background-color: rgba($color: #000000, $alpha: 0.5);
+      backdrop-filter: blur(5px);
       width: 100%;
-      height: 100%;
-      img {
-        position: absolute;
-        z-index: 5;
+      min-height: 100vh;
+      position: absolute;
+      top: 0;
+      z-index: -1;
+    }
+  }
+}
+
+.clearPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 10rem;
+  min-height: 100vh;
+  h2 {
+    font-size: 3rem;
+    font-family: "../assets/Fonts/TaipeiSansTCBeta-Bold.ttf", sans-serif;
+    font-weight: bold;
+    margin: 0.5rem 0rem;
+  }
+  span {
+    font-size: 1.5rem;
+    font-family: "../assets/Fonts/TaipeiSansTCBeta.ttf", sans-serif;
+    color: #6d6d6d;
+  }
+}
+
+.growPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 10rem;
+  min-height: 100vh;
+  margin: 0 1rem;
+  h2 {
+    font-size: 3rem;
+    font-family: "../assets/Fonts/TaipeiSansTCBeta-Bold.ttf", sans-serif;
+    font-weight: bold;
+    margin: 0.5rem 0rem;
+  }
+  p {
+    font-size: 1.5rem;
+    font-family: "../assets/Fonts/TaipeiSansTCBeta.ttf", sans-serif;
+    color: #6d6d6d;
+    span {
+      font-size: 1.25rem;
+      font-family: "../assets/Fonts/TaipeiSansTCBeta-Bold.ttf", sans-serif;
+      color: #000;
+    }
+  }
+  .cards {
+    width: 80%;
+    min-height: 100%;
+    margin: 5rem 0;
+    padding: 0 2.5rem;
+    .card {
+      overflow: hidden;
+      max-width: 12rem;
+      max-height: 13rem;
+      width: 12rem;
+      height: 13rem;
+      min-width: 12rem;
+      min-height: 13rem;
+      margin: 1rem 1vw;
+      div {
+        &.imgContainer {
+          width: 100%;
+          height: 50%;
+          overflow: hidden;
+          img {
+            max-width: 160%;
+            max-height: 160%;
+            position: relative;
+            top: -20%;
+            left: 0%;
+          }
+          .cardBottom {
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+            padding: 0 0.5rem;
+            h4 {
+              font-size: 1.1rem;
+            }
+            p {
+              text-align: left;
+              font-size: 1rem;
+              color: #736e6e;
+              margin: 0.25rem 0;
+              &.price {
+                margin: 0 0 0.5rem 1rem;
+                color: #000;
+                font-size: 1.25rem;
+              }
+            }
+          }
+        }
       }
     }
   }
 }
+
+.memberPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 10rem;
+  min-height: 100vh;
+  margin: 0 1rem;
+
+  h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: "../assets/Fonts/TaipeiSansTCBeta.ttf", sans-serif;
+  }
+  h4 {
+    font-size: 1.5rem;
+    font-family: "../assets/Fonts/TaipeiSansTCBeta.ttf", sans-serif;
+    color: #6d6d6d;
+  }
+  div.members {
+    margin-top: 1rem;
+    width: 100%;
+    height: 100%;
+  }
+}
+
 .cards,
 .cardsBottom {
   display: flex;
@@ -348,61 +352,49 @@ main {
   }
 }
 
-.growPage {
-  .cards,
-  .cardsBottom {
-    width: 80%;
-    min-height: 100%;
-    margin: 5rem 0;
-    padding: 0 2.5rem;
-    .card {
-      overflow: hidden;
-      max-width: 12rem;
-      max-height: 13rem;
-      width: 12rem;
-      height: 13rem;
-      min-width: 12rem;
-      min-height: 13rem;
-      margin: 1rem 1vw;
-      div {
-        &.imgContainer {
-          width: 100%;
-          height: 50%;
-          overflow: hidden;
-          img {
-            max-width: 160%;
-            max-height: 160%;
-            position: relative;
-            top: -20%;
-            left: 0%;
-          }
-          .cardBottom {
-            display: flex;
-            flex-direction: column;
-            text-align: left;
-            padding: 0 0.5rem;
-            h4 {
-              font-size: 1.1rem;
-            }
-            p {
-              text-align: left;
-              font-size: 1rem;
-              color: #736e6e;
-              margin: 0.25rem 0;
-              &.price {
-                margin: 0 0 0.5rem 1rem;
-                color: #000;
-                font-size: 1.25rem;
-              }
-            }
-          }
-        }
-      }
+.memberCard {
+  width: 18rem;
+  height: 25rem;
+  min-width: 18rem;
+
+  overflow: hidden;
+  border-radius: 2rem;
+  position: relative;
+  margin: 1rem;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.25);
+  .memberColor {
+    width: 100%;
+    height: 30%;
+    background-color: #fe4faa;
+  }
+  .content {
+    margin-top: 35%;
+    p {
+      font-size: 1.5rem;
+      font-family: "../assets/Fonts/TaipeiSansTCBeta.ttf", sans-serif;
     }
   }
-
-  .cardsBottom {
-    width: 80%;
+  .memberImgContainer {
+    background-color: #fff;
+    width: 10rem;
+    height: 10rem;
+    min-width: 10rem;
+    min-height: 10rem;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.25);
+    div {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      img {
+        position: absolute;
+        z-index: 5;
+      }
+    }
   }
 }
 
