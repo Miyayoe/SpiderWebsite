@@ -29,7 +29,7 @@
                     document.querySelectorAll('header nav ul li').forEach((item, index) => {
                         setTimeout(() => {
                             item.setAttribute("style", "display:none;");
-                        }, 30 * index);
+                        }, 30 / index);
                     })
                     isOpen = !isOpen;
                 }

@@ -30,8 +30,7 @@ header {
       margin: 0 3rem 0 2rem;
     }
     img {
-      width: 6vw;
-      height: 6vw;
+      width: 4vw;
       margin-right: 1rem;
     }
   }
@@ -94,7 +93,6 @@ header {
       flex-direction: row;
       list-style-type: none;
       justify-content: space-around;
-
       li {
         a {
           color: #ffffff;
@@ -260,13 +258,12 @@ footer {
   background-color: #c9c8c8;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
   header {
     div {
       &.logo {
         img {
           width: 8vw;
-          height: 8vw;
         }
       }
     }
@@ -298,7 +295,6 @@ footer {
     }
   }
   header {
-    height: 4rem;
     nav {
       width: 100%;
       background-color: #000000;

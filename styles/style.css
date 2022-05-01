@@ -48,8 +48,7 @@ header div.logo {
 }
 
 header div img {
-  width: 6vw;
-  height: 6vw;
+  width: 4vw;
   margin-right: 1rem;
 }
 
@@ -191,7 +190,7 @@ main section.backImage a.start {
   text-decoration: none;
   border-radius: 1rem;
   cursor: pointer;
-  font-family: "../assets/Fonts/TaipeiSansTCBeta-Regular.ttf", sans-serif;
+  font-family: "../assets/Fonts/TaipeiSansTCBeta-Regular.ttf", sans-serif;
 }
 
 main section.backImage a.start:hover {
@@ -344,10 +343,9 @@ footer {
   background-color: #c9c8c8;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
   header div.logo img {
     width: 8vw;
-    height: 8vw;
   }
 }
 
@@ -365,9 +363,6 @@ footer {
   }
   main section.secondPage span {
     font-size: 1.25rem;
-  }
-  header {
-    height: 4rem;
   }
   header nav {
     width: 100%;
