@@ -145,7 +145,7 @@ header nav ul li a {
 }
 
 main section.backImage {
-  min-height: 94vh;
+  min-height: 100vh;
   width: 100%;
   background-image: url(../assets/Images/FirstPage.png);
   background-size: cover;
@@ -191,7 +191,7 @@ main section.backImage a.start {
   text-decoration: none;
   border-radius: 1rem;
   cursor: pointer;
-  font-family: "../assets/Fonts/TaipeiSansTCBeta-Regular.ttf", sans-serif;
+  font-family: "../assets/Fonts/TaipeiSansTCBeta-Regular.ttf", sans-serif;
 }
 
 main section.backImage a.start:hover {
@@ -203,7 +203,7 @@ main section.backImage div.filter {
   -webkit-backdrop-filter: blur(5px);
           backdrop-filter: blur(5px);
   width: 100%;
-  min-height: 94vh;
+  min-height: 100vh;
   position: absolute;
   top: 0;
   z-index: -1;
