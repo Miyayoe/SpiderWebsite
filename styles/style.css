@@ -190,7 +190,7 @@ main section.backImage a.start {
   text-decoration: none;
   border-radius: 1rem;
   cursor: pointer;
-  font-family: "../assets/Fonts/TaipeiSansTCBeta-Regular.ttf", sans-serif;
+  font-family: "../assets/Fonts/TaipeiSansTCBeta-Regular.ttf", sans-serif;
 }
 
 main section.backImage a.start:hover {
@@ -220,9 +220,8 @@ main section.clearPage {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  padding-top: 3rem;
+  padding-top: 10rem;
   min-height: 100vh;
-  margin: 0 1rem;
 }
 
 main section.clearPage h2 {
@@ -250,7 +249,7 @@ main section.growPage {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  padding-top: 3rem;
+  padding-top: 10rem;
   min-height: 100vh;
   margin: 0 1rem;
 }
@@ -274,11 +273,12 @@ main section.growPage p span {
   color: #000;
 }
 
-.cards {
+.cards,
+.cardsBottom {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 60%;
+  width: 40%;
   margin-top: 3rem;
   min-height: 50vh;
   -ms-flex-wrap: wrap;
@@ -291,7 +291,8 @@ main section.growPage p span {
           align-items: center;
 }
 
-.cards .card {
+.cards .card,
+.cardsBottom .card {
   overflow: hidden;
   border-radius: 1.5rem;
   display: -webkit-box;
@@ -308,9 +309,9 @@ main section.growPage p span {
   max-height: 16rem;
   width: 15rem;
   height: 16rem;
-  min-width: 15rem;
-  min-height: 16rem;
-  margin: 1.5rem 0;
+  min-width: 20rem;
+  min-height: 21rem;
+  margin: 0.5rem 0.75rem;
   -webkit-box-flex: 1;
       -ms-flex: 1 1 300px;
           flex: 1 1 300px;
@@ -322,29 +323,36 @@ main section.growPage p span {
   transition: 0.2s;
 }
 
-.cards .card:hover {
+.cards .card:hover,
+.cardsBottom .card:hover {
   -webkit-transform: translate(-0.25rem, -0.25rem);
           transform: translate(-0.25rem, -0.25rem);
 }
 
-.cards .card div.cardBottom {
+.cards .card div.cardBottom,
+.cardsBottom .card div.cardBottom {
   position: absolute;
   height: 50%;
+  width: 90%;
   top: 52%;
 }
 
-.cards .card div.cardBottom h4 {
-  font-size: 1.25rem;
+.cards .card div.cardBottom h4,
+.cardsBottom .card div.cardBottom h4 {
+  text-align: left;
+  font-size: 1.5rem;
 }
 
-.cards .card div.cardBottom p {
-  font-size: 1rem;
+.cards .card div.cardBottom p,
+.cardsBottom .card div.cardBottom p {
+  font-size: 1.25rem;
   color: #736e6e;
   text-align: left;
 }
 
-.cards .card div.cardBottom p.price {
-  font-size: 1.25rem;
+.cards .card div.cardBottom p.price,
+.cardsBottom .card div.cardBottom p.price {
+  font-size: 1.5rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -361,44 +369,51 @@ main section.growPage p span {
   color: #000;
 }
 
-.cards .card img {
+.cards .card img,
+.cardsBottom .card img {
   max-width: 100%;
   max-height: 100%;
   position: absolute;
   top: -5%;
 }
 
-.growPage .cards {
-  width: 100%;
-  margin: 0;
+.growPage .cards,
+.growPage .cardsBottom {
+  width: 70%;
+  min-height: 100%;
+  margin: 5rem 0;
 }
 
-.growPage .cards .card {
+.growPage .cards .card,
+.growPage .cardsBottom .card {
   overflow: hidden;
-  margin: 0.5rem 0.75rem;
   max-width: 12rem;
   max-height: 13rem;
   width: 12rem;
   height: 13rem;
   min-width: 12rem;
   min-height: 13rem;
+  margin: 1vw 0;
 }
 
-.growPage .cards .card div.container {
+.growPage .cards .card div.imgContainer,
+.growPage .cardsBottom .card div.imgContainer {
   width: 100%;
   height: 50%;
   overflow: hidden;
 }
 
-.growPage .cards .card div.container img {
-  max-width: 165%;
-  max-height: 165%;
+.growPage .cards .card div.imgContainer img,
+.growPage .cardsBottom .card div.imgContainer img {
+  max-width: 160%;
+  max-height: 160%;
   position: relative;
-  top: -35%;
-  left: -2.5%;
+  top: -20%;
+  left: 0%;
 }
 
-.growPage .cards .card div.container .cardBottom {
+.growPage .cards .card div.imgContainer .cardBottom,
+.growPage .cardsBottom .card div.imgContainer .cardBottom {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -410,17 +425,28 @@ main section.growPage p span {
   padding: 0 0.5rem;
 }
 
-.growPage .cards .card div.container .cardBottom p {
+.growPage .cards .card div.imgContainer .cardBottom h4,
+.growPage .cardsBottom .card div.imgContainer .cardBottom h4 {
+  font-size: 1.2rem;
+}
+
+.growPage .cards .card div.imgContainer .cardBottom p,
+.growPage .cardsBottom .card div.imgContainer .cardBottom p {
   text-align: left;
   font-size: 1rem;
   color: #736e6e;
   margin: 0.25rem 0;
 }
 
-.growPage .cards .card div.container .cardBottom p.price {
-  margin-left: 1rem;
+.growPage .cards .card div.imgContainer .cardBottom p.price,
+.growPage .cardsBottom .card div.imgContainer .cardBottom p.price {
+  margin: 0 0 0.5rem 1rem;
   color: #000;
   font-size: 1.25rem;
+}
+
+.growPage .cardsBottom {
+  width: 40%;
 }
 
 footer {
