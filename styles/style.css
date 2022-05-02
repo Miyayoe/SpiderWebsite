@@ -36,6 +36,7 @@ header {
   position: fixed;
   z-index: 100;
   width: 100%;
+  overflow: hidden;
 }
 
 header div.logo {
@@ -58,8 +59,8 @@ header div img {
 
 header nav {
   -webkit-box-flex: 1.75;
-      -ms-flex: 1.75 1 400px;
-          flex: 1.75 1 400px;
+      -ms-flex: 1.75 1 500px;
+          flex: 1.75 1 500px;
   padding-right: 1rem;
 }
 
@@ -142,11 +143,18 @@ header nav ul {
   transition: 0.25s;
 }
 
-header nav ul li a {
+header nav ul li {
+  padding: 0.5rem 0.5rem;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
   color: #ffffff;
   text-decoration: none;
   font-size: 1.25rem;
   z-index: 101;
+}
+
+header nav ul li:hover {
+  background-color: #404040;
 }
 
 .cards,
@@ -247,7 +255,7 @@ header nav ul li a {
   top: -5%;
 }
 
-.backImage {
+#backImage {
   min-height: 100vh;
   width: 100%;
   background-image: url(../assets/Images/FirstPage.png);
@@ -271,7 +279,7 @@ header nav ul li a {
   text-align: center;
 }
 
-.backImage h3 {
+#backImage h3 {
   font-size: 5rem;
   color: white;
   margin: 1rem;
@@ -279,14 +287,14 @@ header nav ul li a {
   font-weight: bold;
 }
 
-.backImage h4 {
+#backImage h4 {
   font-size: 1.75rem;
   font-weight: 100;
   color: white;
   font-family: "../assets/Fonts/TaipeiSansTCBeta-Regular.ttf", sans-serif;
 }
 
-.backImage a.start {
+#backImage a.start {
   background-color: #00d1ff;
   padding: 1.25rem 2.5rem;
   margin: 2rem;
@@ -298,11 +306,11 @@ header nav ul li a {
   font-family: "../assets/Fonts/TaipeiSansTCBeta-Regular.ttf", sans-serif;
 }
 
-.backImage a.start:hover {
+#backImage a.start:hover {
   background-color: #04b0d6;
 }
 
-.backImage div.filter {
+#backImage div.filter {
   background-color: rgba(0, 0, 0, 0.5);
   -webkit-backdrop-filter: blur(5px);
           backdrop-filter: blur(5px);
@@ -313,7 +321,7 @@ header nav ul li a {
   z-index: -1;
 }
 
-.clearPage {
+#clearPage {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -329,20 +337,20 @@ header nav ul li a {
   min-height: 100vh;
 }
 
-.clearPage h2 {
+#clearPage h2 {
   font-size: 4.5rem;
   font-family: "../assets/Fonts/TaipeiSansTCBeta-Bold.ttf", sans-serif;
   font-weight: bold;
   margin: 0.5rem 0rem;
 }
 
-.clearPage span {
+#clearPage span {
   font-size: 3rem;
   font-family: "../assets/Fonts/TaipeiSansTCBeta.ttf", sans-serif;
   color: #6d6d6d;
 }
 
-.clearPage .card {
+#clearPage .card {
   max-width: 20rem;
   max-height: 21rem;
   min-width: 20rem;
@@ -350,7 +358,7 @@ header nav ul li a {
   margin: 0.5rem 5rem;
 }
 
-.growPage {
+#growPage {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -367,27 +375,27 @@ header nav ul li a {
   margin: 0 1rem;
 }
 
-.growPage h2 {
+#growPage h2 {
   font-size: 4.5rem;
   font-family: "../assets/Fonts/TaipeiSansTCBeta-Bold.ttf", sans-serif;
   font-weight: bold;
   margin: 0.5rem 0rem;
 }
 
-.growPage p {
+#growPage p {
   font-size: 3rem;
   font-family: "../assets/Fonts/TaipeiSansTCBeta.ttf", sans-serif;
   color: #6d6d6d;
 }
 
-.growPage p span {
+#growPage p span {
   font-size: 2.5rem;
   font-family: "../assets/Fonts/TaipeiSansTCBeta-Bold.ttf", sans-serif;
   color: #000;
   font-weight: bold;
 }
 
-.growPage .cards p {
+#growPage .cards p {
   width: 100vw;
   font-size: 1.75rem;
   font-weight: bold;
@@ -396,7 +404,7 @@ header nav ul li a {
   font-family: "../assets/Fonts/TaipeiSansTCBeta-Bold.ttf", sans-serif;
 }
 
-.growPage .cards .card {
+#growPage .cards .card {
   min-width: 14rem;
   min-height: 15rem;
   width: 14rem;
@@ -405,21 +413,21 @@ header nav ul li a {
   max-height: 15rem;
 }
 
-.growPage .cards .card div.imgContainer {
+#growPage .cards .card div.imgContainer {
   width: 100%;
   height: 50%;
   overflow: hidden;
   background-color: #88d5ff;
 }
 
-.growPage .cards .card div.imgContainer img {
+#growPage .cards .card div.imgContainer img {
   max-width: 150%;
   max-height: 150%;
   position: relative;
   top: -15%;
 }
 
-.growPage .cards .card div.imgContainer .cardBottom {
+#growPage .cards .card div.imgContainer .cardBottom {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -431,25 +439,25 @@ header nav ul li a {
   padding: 0 0.5rem;
 }
 
-.growPage .cards .card div.imgContainer .cardBottom h4 {
+#growPage .cards .card div.imgContainer .cardBottom h4 {
   font-size: 1.1rem;
   font-weight: bold;
 }
 
-.growPage .cards .card div.imgContainer .cardBottom p {
+#growPage .cards .card div.imgContainer .cardBottom p {
   text-align: left;
   font-size: 1rem;
   color: #736e6e;
   margin: 1rem 0;
 }
 
-.growPage .cards .card div.imgContainer .cardBottom p.price {
+#growPage .cards .card div.imgContainer .cardBottom p.price {
   margin: 0 0 0.5rem 1rem;
   color: #000;
   font-size: 1.25rem;
 }
 
-.memberPage {
+#memberPage {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -466,41 +474,42 @@ header nav ul li a {
   margin: 0 1rem;
 }
 
-.memberPage h2 {
+#memberPage h2 {
   font-size: 4.5rem;
   font-weight: bold;
   font-family: "../assets/Fonts/TaipeiSansTCBeta.ttf", sans-serif;
 }
 
-.memberPage h4 {
+#memberPage h4 {
   margin-top: 4rem;
   font-size: 2rem;
   font-family: "../assets/Fonts/TaipeiSansTCBeta.ttf", sans-serif;
+  font-weight: bold;
   color: #6d6d6d;
 }
 
-.memberPage div.members {
+#memberPage div.members {
   padding-top: 2rem;
   width: 100%;
   height: 100%;
 }
 
-.memberPage .positiveFeedback {
+#memberPage .positiveFeedback {
   margin: 5rem 0;
 }
 
-.memberPage .positiveFeedback h3 {
+#memberPage .positiveFeedback h3 {
   margin: 2rem;
   font-size: 3rem;
   color: #6d6d6d;
   font-family: "../assets/Fonts/TaipeiSansTCBeta.ttf", sans-serif;
 }
 
-.memberPage .positiveFeedback img {
+#memberPage .positiveFeedback img {
   width: 80%;
 }
 
-.calendarPage {
+#calendarPage {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -513,24 +522,24 @@ header nav ul li a {
           align-items: center;
 }
 
-.calendarPage h2 {
+#calendarPage h2 {
   font-size: 4.5rem;
   font-family: "../assets/Fonts/TaipeiSansTCBeta-Bold.ttf", sans-serif;
   font-weight: bold;
   margin: 0.5rem 0rem;
 }
 
-.calendarPage h3 {
+#calendarPage h3 {
   color: #6d6d6d;
 }
 
-.calendarPage #GoogleCalendar {
+#calendarPage #GoogleCalendar {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
-.calendarPage #GoogleCalendar iframe {
+#calendarPage #GoogleCalendar iframe {
   width: 50vw;
   height: 40vw;
 }
@@ -572,6 +581,7 @@ header nav ul li a {
 .memberCard .tag p {
   color: #fff;
   font-size: 1.5rem;
+  font-family: "../assets/Fonts/TaipeiSansTCBeta.ttf", sans-serif;
 }
 
 .memberCard .content {
@@ -665,57 +675,57 @@ footer {
 }
 
 @media screen and (max-width: 600px) {
-  main section.backImage h3 {
+  main section#backImage h3 {
     font-size: 2.75rem;
   }
-  main section.backImage h4 {
+  main section#backImage h4 {
     font-size: 1.1rem;
     margin: 0 0.5rem;
   }
-  main section.backImage a.start {
+  main section#backImage a.start {
     padding: 1rem 2rem;
     font-size: 1.75rem;
   }
-  main section.clearPage h2 {
+  main section#clearPage h2 {
     font-size: 3rem;
   }
-  main section.clearPage span {
+  main section#clearPage span {
     font-size: 1.2rem;
   }
-  main section.clearPage span br.media {
+  main section#clearPage span br.media {
     display: block;
   }
-  main section.growPage h2 {
+  main section#growPage h2 {
     font-size: 3rem;
   }
-  main section.growPage p {
+  main section#growPage p {
     font-size: 1.2rem;
   }
-  main section.growPage p br.media {
+  main section#growPage p br.media {
     display: block;
   }
-  main section.growPage p span {
+  main section#growPage p span {
     font-size: 1rem;
   }
-  main section.memberPage h2 {
+  main section#memberPage h2 {
     font-size: 3rem;
   }
-  main section.memberPage h4 {
+  main section#memberPage h4 {
     font-size: 1.2rem;
   }
-  main section.memberPage .positiveFeedback h3 {
+  main section#memberPage .positiveFeedback h3 {
     font-size: 2rem;
   }
-  main section.calendarPage h2 {
+  main section#calendarPage h2 {
     font-size: 3rem;
   }
-  main section.calendarPage h3 {
+  main section#calendarPage h3 {
     font-size: 1.5rem;
   }
-  main section.calendarPage #GoogleCalendar {
+  main section#calendarPage #GoogleCalendar {
     margin: 10vw 0;
   }
-  main section.calendarPage #GoogleCalendar iframe {
+  main section#calendarPage #GoogleCalendar iframe {
     width: 80vw;
     height: 60vw;
   }
@@ -741,13 +751,7 @@ footer {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  header nav ul li:hover {
-    background-color: #272727;
-  }
-  header nav ul li:hover a {
-    font-size: 1.75rem;
-  }
-  header nav ul li a {
+  header nav ul li {
     font-size: 1.5rem;
   }
   header nav button#listButton {

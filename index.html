@@ -18,6 +18,23 @@
   <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 
   <script>
+    function scrollToPage(target) {
+      window.scrollTo({
+        top: getPosition(document.querySelector(target)).y,
+        behavior: "smooth"
+      });
+    }
+    function getPosition(element) {
+      var x = 0;
+      var y = 0;
+      while (element) {
+        x += element.offsetLeft - element.scrollLeft + element.clientLeft;
+        y += element.offsetTop - element.scrollLeft + element.clientTop;
+        element = element.offsetParent;
+      }
+
+      return { x: x, y: y };
+    }
     var swiper;
     window.onload = () => {
       let listButton = document.querySelector("#listButton");
@@ -75,17 +92,17 @@
       </button>
 
       <ul id="menu">
-        <li><a href="#">首頁</a></li>
-        <li><a href="#">通關方案</a></li>
-        <li><a href="#">成長方案</a></li>
-        <li><a href="#">團隊介紹</a></li>
-        <li><a href="#">可預約時間</a></li>
+        <li onclick="scrollToPage('#backImage')">首頁</li>
+        <li onclick="scrollToPage('#clearPage')">通關方案</li>
+        <li onclick="scrollToPage('#growPage')">成長方案</li>
+        <li onclick="scrollToPage('#memberPage')">團隊介紹</li>
+        <li onclick="scrollToPage('#calendarPage')">可預約時間</li>
       </ul>
     </nav>
   </header>
 
   <main>
-    <section class="backImage">
+    <section id="backImage">
       <div class="filter"></div>
       <h3>蜘蛛專業襲擊陪打</h3>
       <h4>熱衷於協助沒有時間、工作或課業繁忙的您<br>
@@ -93,7 +110,7 @@
         從獲得武器到成長階段，最完整的一條龍服務</h4>
       <a href="https://www.8591.com.tw/mallList-wareDetail.html?id=2379314779" class="start">立即報名</a>
     </section>
-    <section class="clearPage">
+    <section id="clearPage">
       <h2>
         通關方案
       </h2>
@@ -125,7 +142,7 @@
       </section>
     </section>
     <hr>
-    <section class="growPage">
+    <section id="growPage">
       <h2>成長方案</h2>
       <p>推薦四人或以上方案<br class="media">(雙輸出+控場+CEL)效率最佳<br>
         租借四人以下的必要職位會外找<br>
@@ -216,7 +233,7 @@
         </div>
     </section>
     <hr>
-    <section class="memberPage">
+    <section id="memberPage">
       <h2>團隊介紹</h2>
       <h4>輸出機體</h4>
       <!-- Swiper -->
@@ -562,12 +579,11 @@
         <img src="/assets/Images/bestsheets.png" alt="">
       </div>
     </section>
-    <section class="calendarPage">
+    <hr>
+    <section id="calendarPage">
       <h2>可預約時間</h2>
       <h3>
-        白色：尚可預約時段<br>
-        灰色：不可預約時段<br>
-        色塊：已被預約時段
+        預約時段:PM 2:00 ~ PM 0:00
       </h3>
       <div id="GoogleCalendar">
         <iframe src="https://calendar.google.com/calendar/embed?src=ji32vul3xx%40gmail.com&ctz=Asia%2FTaipei"

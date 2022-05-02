@@ -26,6 +26,8 @@ header {
   position: fixed;
   z-index: 100;
   width: 100%;
+  overflow: hidden;
+
   div {
     &.logo {
       display: flex;
@@ -39,8 +41,9 @@ header {
     }
   }
   nav {
-    flex: 1.75 1 400px;
+    flex: 1.75 1 500px;
     padding-right: 1rem;
+
     button {
       &#listButton {
         display: none;
@@ -100,12 +103,15 @@ header {
       transition: 0.25s;
 
       li {
-        a {
-          color: #ffffff;
-          text-decoration: none;
-          font-size: 1.25rem;
-          z-index: 101;
+        padding: 0.5rem 0.5rem;
+        transition: 0.2s;
+        &:hover {
+          background-color: rgb(64, 64, 64);
         }
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 1.25rem;
+        z-index: 101;
       }
     }
   }
@@ -174,7 +180,7 @@ header {
   }
 }
 
-.backImage {
+#backImage {
   min-height: 100vh;
   width: 100%;
   background-image: url(../assets/Images/FirstPage.png);
@@ -232,7 +238,7 @@ header {
   }
 }
 
-.clearPage {
+#clearPage {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -259,7 +265,7 @@ header {
   }
 }
 
-.growPage {
+#growPage {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -338,7 +344,7 @@ header {
   }
 }
 
-.memberPage {
+#memberPage {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -356,6 +362,7 @@ header {
     margin-top: 4rem;
     font-size: 2rem;
     font-family: "../assets/Fonts/TaipeiSansTCBeta.ttf", sans-serif;
+    font-weight: bold;
     color: #6d6d6d;
   }
   div {
@@ -379,7 +386,7 @@ header {
   }
 }
 
-.calendarPage {
+#calendarPage {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -431,6 +438,7 @@ header {
     p {
       color: #fff;
       font-size: 1.5rem;
+      font-family: "../assets/Fonts/TaipeiSansTCBeta.ttf", sans-serif;
     }
   }
   .content {
@@ -503,7 +511,7 @@ footer {
 @media screen and(max-width:600px) {
   main {
     section {
-      &.backImage {
+      &#backImage {
         h3 {
           font-size: 2.75rem;
         }
@@ -518,7 +526,7 @@ footer {
           }
         }
       }
-      &.clearPage {
+      &#clearPage {
         h2 {
           font-size: 3rem;
         }
@@ -531,7 +539,7 @@ footer {
           }
         }
       }
-      &.growPage {
+      &#growPage {
         h2 {
           font-size: 3rem;
         }
@@ -547,7 +555,7 @@ footer {
           }
         }
       }
-      &.memberPage {
+      &#memberPage {
         h2 {
           font-size: 3rem;
         }
@@ -560,7 +568,7 @@ footer {
           }
         }
       }
-      &.calendarPage {
+      &#calendarPage {
         h2 {
           font-size: 3rem;
         }
@@ -599,15 +607,7 @@ footer {
       ul {
         flex-direction: column;
         li {
-          &:hover {
-            background-color: rgb(39, 39, 39);
-            a {
-              font-size: 1.75rem;
-            }
-          }
-          a {
-            font-size: 1.5rem;
-          }
+          font-size: 1.5rem;
         }
       }
       button {
