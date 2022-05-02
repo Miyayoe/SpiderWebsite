@@ -390,7 +390,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  // min-height: 100vh;
+  // min-height: 90vh;
 
   h2 {
     font-size: 4.5rem;
@@ -490,11 +490,28 @@ header {
 
 footer {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  min-height: 15vh;
-  justify-content: space-between;
-  background-color: #c9c8c8;
+  flex-direction: column;
+  min-height: 5vh;
+  margin-top: 5vh;
+  background-color: #000000;
+  padding: 1rem;
+  a {
+    text-decoration: none;
+    transition: 0.5s;
+    &:hover {
+      p {
+        color: rgba(255, 255, 255, 1);
+      }
+    }
+  }
+  p {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 0.5rem;
+    text-align: center;
+    font-weight: 100;
+    font-family: "../assets/Fonts/jf-openhuninn-1.1.ttf", sans-serif;
+  }
 }
 
 @media screen and (max-width: 900px) {

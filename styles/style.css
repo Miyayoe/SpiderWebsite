@@ -654,18 +654,35 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  min-height: 15vh;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  background-color: #c9c8c8;
+  min-height: 5vh;
+  margin-top: 5vh;
+  background-color: #000000;
+  padding: 1rem;
+}
+
+footer a {
+  text-decoration: none;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+footer a:hover p {
+  color: white;
+}
+
+footer p {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 0.5rem;
+  text-align: center;
+  font-weight: 100;
+  font-family: "../assets/Fonts/jf-openhuninn-1.1.ttf", sans-serif;
 }
 
 @media screen and (max-width: 900px) {
