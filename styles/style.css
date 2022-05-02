@@ -485,6 +485,56 @@ header nav ul li a {
   height: 100%;
 }
 
+.memberPage .positiveFeedback {
+  margin: 5rem 0;
+}
+
+.memberPage .positiveFeedback h3 {
+  margin: 2rem;
+  font-size: 3rem;
+  color: #6d6d6d;
+  font-family: "../assets/Fonts/TaipeiSansTCBeta.ttf", sans-serif;
+}
+
+.memberPage .positiveFeedback img {
+  width: 80%;
+}
+
+.calendarPage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.calendarPage h2 {
+  font-size: 4.5rem;
+  font-family: "../assets/Fonts/TaipeiSansTCBeta-Bold.ttf", sans-serif;
+  font-weight: bold;
+  margin: 0.5rem 0rem;
+}
+
+.calendarPage h3 {
+  color: #6d6d6d;
+}
+
+.calendarPage #GoogleCalendar {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.calendarPage #GoogleCalendar iframe {
+  width: 50vw;
+  height: 40vw;
+}
+
 .memberCard {
   width: 18rem;
   height: 25rem;
@@ -652,6 +702,22 @@ footer {
   }
   main section.memberPage h4 {
     font-size: 1.2rem;
+  }
+  main section.memberPage .positiveFeedback h3 {
+    font-size: 2rem;
+  }
+  main section.calendarPage h2 {
+    font-size: 3rem;
+  }
+  main section.calendarPage h3 {
+    font-size: 1.5rem;
+  }
+  main section.calendarPage #GoogleCalendar {
+    margin: 10vw 0;
+  }
+  main section.calendarPage #GoogleCalendar iframe {
+    width: 80vw;
+    height: 60vw;
   }
   header nav {
     width: 100%;
