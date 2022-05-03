@@ -25,62 +25,40 @@ window.onload = () => {
       .classList.toggle("active");
   });
 
-  AddMemberCard(
-    {
-      className: "阿丹臭死你",
-      classImg: "./assets/Images/Class/EW.png",
-      weapon: "+12 魂靈迷鏡(五階段)",
-      weaponImg: "./assets/Images/Weapon/Mirror.png",
-      equipment: "+11 鍛造21整套骯髒-丹",
-      equipmentImg: "./assets/Images/Tenebrous/Tenebrous.png",
-      tag: "輸出",
-      internalStyle: "transform: translate(10%,35%) scale(2);",
-    },
-    "memberList-enforcer"
-  );
-  for (let i = 0; i < 10; i++) {
-    AddMemberCard(
-      {
-        className: "Eternity Winner",
-        classImg: "./assets/Images/Class/EW.png",
-        weapon: "+12 魂靈迷鏡(五階段)",
-        weaponImg: "./assets/Images/Weapon/Mirror.png",
-        equipment: "+11 鍛造21整套泰納",
-        equipmentImg: "./assets/Images/Tenebrous/Tenebrous.png",
-        tag: "輸出",
-        internalStyle: "transform: translate(10%,35%) scale(2);",
-      },
-      "memberList-enforcer"
-    );
-  }
-  AddMemberCard(
-    {
-      className: "輸出是最好的輔助",
-      classImg: "./assets/Images/Class/EW.png",
-      weapon: "+12 魂靈迷鏡(五階段)",
-      weaponImg: "./assets/Images/Weapon/Mirror.png",
-      equipment: "+11 鍛造21整套骯髒-丹",
-      equipmentImg: "./assets/Images/Tenebrous/Tenebrous.png",
-      tag: "輔助",
-      internalStyle: "transform: translate(10%,35%) scale(2);",
-    },
-    "memberList-support"
-  );
-  for (let i = 0; i < 10; i++) {
-    AddMemberCard(
-      {
-        className: "Eternity Winner",
-        classImg: "./assets/Images/Class/EW.png",
-        weapon: "+12 魂靈迷鏡(五階段)",
-        weaponImg: "./assets/Images/Weapon/Mirror.png",
-        equipment: "+11 鍛造21整套泰納",
-        equipmentImg: "./assets/Images/Tenebrous/Tenebrous.png",
-        tag: "輔助",
-        internalStyle: "transform: translate(10%,35%) scale(2);",
-      },
-      "memberList-support"
-    );
-  }
+  axios.get("./members.json").then((res) => {
+    res.data.enforcer.forEach((info) => {
+      AddMemberCard(
+        {
+          className: info.className,
+          classImg: info.classImg,
+          classColor: info.classColor,
+          weapon: info.weapon,
+          weaponImg: info.weaponImg,
+          equipment: info.equipment,
+          equipmentImg: info.equipmentImg,
+          tag: info.tag,
+          internalStyle: info.internalStyle,
+        },
+        "memberList-enforcer"
+      );
+    });
+    res.data.support.forEach((info) => {
+      AddMemberCard(
+        {
+          className: info.className,
+          classImg: info.classImg,
+          classColor: info.classColor,
+          weapon: info.weapon,
+          weaponImg: info.weaponImg,
+          equipment: info.equipment,
+          equipmentImg: info.equipmentImg,
+          tag: info.tag,
+          internalStyle: info.internalStyle,
+        },
+        "memberList-support"
+      );
+    });
+  });
 
   swiper = new Swiper(".members", {
     slidesPerView: 1,
@@ -118,7 +96,7 @@ window.onload = () => {
 function AddMemberCard(info, id) {
   let html = `<div class="swiper-slide">
     <div class="memberCard">
-      <div class="memberColor"></div>
+      <div class="memberColor"style="background-color:${info.classColor};"></div>
       <div class="memberImgContainer">
         <div>
           <img style="${info.internalStyle}}" src="${info.classImg}" alt="">

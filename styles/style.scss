@@ -1,3 +1,11 @@
+:root {
+  --TaipeiSansTC: "../assets/Fonts/TaipeiSansTCBeta-Regular.ttf", "Noto Sans TC",
+    sans-serif;
+  --TaipeiSansTC-Bold: "../assets/Fonts/TaipeiSansTCBeta-Bold.ttf",
+    "Noto Sans TC", sans-serif;
+  --TaipeiSansTC-Light: "../assets/Fonts/TaipeiSansTCBeta-Light.ttf",
+    "Noto Sans TC", sans-serif;
+}
 * {
   padding: 0;
   margin: 0;
@@ -135,7 +143,7 @@ header {
     align-items: center;
     position: relative;
     background-color: white;
-    filter: drop-shadow(0rem 0.25rem 1.25rem rgba(0, 0, 0, 0.25));
+    box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
     transition: 0.2s;
     &:hover {
       transform: translateY(-0.5rem) scale(1.05);
@@ -244,13 +252,13 @@ header {
   min-height: 100vh;
   h2 {
     font-size: 4.5rem;
-    font-family: "../assets/Fonts/TaipeiSansTCBeta-Bold.ttf", sans-serif;
+    font-family: var(--TaipeiSansTC-Bold);
     font-weight: bold;
     margin: 0.5rem 0rem;
   }
   span {
     font-size: 3rem;
-    font-family: "../assets/Fonts/TaipeiSansTCBeta.ttf", sans-serif;
+    font-family: var(--TaipeiSansTC);
     color: #6d6d6d;
   }
   .card {
@@ -272,17 +280,17 @@ header {
   margin: 0 1rem;
   h2 {
     font-size: 4.5rem;
-    font-family: "../assets/Fonts/TaipeiSansTCBeta-Bold.ttf", sans-serif;
+    font-family: var(--TaipeiSansTC-Bold);
     font-weight: bold;
     margin: 0.5rem 0rem;
   }
   p {
     font-size: 3rem;
-    font-family: "../assets/Fonts/TaipeiSansTCBeta.ttf", sans-serif;
+    font-family: var(--TaipeiSansTC);
     color: #6d6d6d;
     span {
       font-size: 2.5rem;
-      font-family: "../assets/Fonts/TaipeiSansTCBeta-Bold.ttf", sans-serif;
+      font-family: var(--TaipeiSansTC-Bold);
       color: #000;
       font-weight: bold;
     }
@@ -293,7 +301,7 @@ header {
       font-size: 1.75rem;
       font-weight: bold;
       transform: translateY(-1rem);
-      font-family: "../assets/Fonts/TaipeiSansTCBeta-Bold.ttf", sans-serif;
+      font-family: var(--TaipeiSansTC-Bold);
     }
     .card {
       min-width: 14rem;
@@ -356,12 +364,12 @@ header {
   h2 {
     font-size: 4.5rem;
     font-weight: bold;
-    font-family: "../assets/Fonts/TaipeiSansTCBeta.ttf", sans-serif;
+    font-family: var(--TaipeiSansTC);
   }
   h4 {
     margin-top: 4rem;
     font-size: 2rem;
-    font-family: "../assets/Fonts/TaipeiSansTCBeta.ttf", sans-serif;
+    font-family: var(--TaipeiSansTC);
     font-weight: bold;
     color: #6d6d6d;
   }
@@ -378,7 +386,7 @@ header {
       margin: 2rem;
       font-size: 3rem;
       color: #6d6d6d;
-      font-family: "../assets/Fonts/TaipeiSansTCBeta.ttf", sans-serif;
+      font-family: var(--TaipeiSansTC);
     }
     img {
       width: 80%;
@@ -395,7 +403,7 @@ header {
 
   h2 {
     font-size: 4.5rem;
-    font-family: "../assets/Fonts/TaipeiSansTCBeta-Bold.ttf", sans-serif;
+    font-family: var(--TaipeiSansTC);
     font-weight: bold;
     margin: 0.5rem 0rem;
   }
@@ -428,7 +436,7 @@ header {
   .memberColor {
     width: 100%;
     height: 30%;
-    background-color: #fe4faa;
+    // background-color: #fe4faa;
   }
   .tag {
     width: 4.5rem;
@@ -442,7 +450,7 @@ header {
     p {
       color: #fff;
       font-size: 1.5rem;
-      font-family: "../assets/Fonts/TaipeiSansTCBeta.ttf", sans-serif;
+      font-family: var(--TaipeiSansTC);
     }
   }
   .content {
@@ -451,14 +459,14 @@ header {
     margin-top: 30%;
     p {
       font-size: 1.5rem;
-      font-family: "../assets/Fonts/TaipeiSansTCBeta.ttf", sans-serif;
+      font-family: var(--TaipeiSansTC);
     }
     span {
       margin: 0.5rem;
       display: flex;
       flex-direction: row;
       font-size: 1rem;
-      font-family: "../assets/Fonts/TaipeiSansTCBeta.ttf", sans-serif;
+      font-family: var(--TaipeiSansTC);
       text-align: left;
       font-weight: 600;
       color: #929292;
@@ -620,7 +628,7 @@ footer {
       }
       &.active {
         #menu {
-          height: calc(40vh - 70px);
+          height: calc(40vh - 3.8rem);
           visibility: visible;
           z-index: 200;
         }
