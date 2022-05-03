@@ -162,19 +162,16 @@ header nav ul li:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 80%;
-  min-height: 50vh;
+  width: 90%;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  min-height: 100%;
-  margin: 5rem 0;
-  padding: 0 2.5rem;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding: 2.5rem 2.5rem;
 }
 
 .cards .card,
@@ -211,7 +208,7 @@ header nav ul li:hover {
   position: absolute;
   height: 50%;
   width: 90%;
-  top: 52%;
+  top: 57%;
 }
 
 .cards .card div.cardBottom h4,
@@ -238,21 +235,21 @@ header nav ul li:hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
   position: absolute;
-  top: 65%;
+  top: 60%;
   left: 0;
   color: #000;
 }
 
 .cards .card img,
 .cardsBottom .card img {
+  position: absolute;
   max-width: 100%;
   max-height: 100%;
-  position: absolute;
-  top: -5%;
+  top: 0;
 }
 
 #backImage {
@@ -437,10 +434,11 @@ header nav ul li:hover {
           flex-direction: column;
   text-align: left;
   padding: 0 0.5rem;
+  top: 52%;
 }
 
 #growPage .cards .card div.imgContainer .cardBottom h4 {
-  font-size: 1.1rem;
+  font-size: 1.25rem;
   font-weight: bold;
 }
 
@@ -448,7 +446,9 @@ header nav ul li:hover {
   text-align: left;
   font-size: 1rem;
   color: #736e6e;
-  margin: 1rem 0;
+  padding: 1rem 0;
+  font-weight: normal;
+  top: 65%;
 }
 
 #growPage .cards .card div.imgContainer .cardBottom p.price {
@@ -520,6 +520,8 @@ header nav ul li:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  min-height: 90vh;
+  padding-top: 5rem;
 }
 
 #calendarPage h2 {
@@ -576,6 +578,15 @@ header nav ul li:hover {
   position: absolute;
   right: 0;
   background-color: #c4c4c4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .memberCard .tag p {
