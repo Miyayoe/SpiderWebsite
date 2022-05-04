@@ -710,13 +710,6 @@ footer p {
 }
 
 @media screen and (max-width: 900px) {
-  header div.logo {
-    padding-top: 1rem;
-  }
-  header div.logo h1 {
-    font-size: 1.5rem;
-    color: white;
-  }
   header div.logo img {
     width: 8vw;
   }
@@ -777,6 +770,12 @@ footer p {
     width: 80vw;
     height: 60vw;
   }
+  header {
+    padding-top: 0.25rem;
+  }
+  header h1 {
+    font-size: 1.5rem;
+  }
   header nav {
     width: 100%;
     background-color: #000000;
@@ -807,7 +806,7 @@ footer p {
     display: -ms-flexbox;
     display: flex;
     position: fixed;
-    top: 0.8%;
+    top: 0.3%;
     right: 2.5vw;
     z-index: 1;
   }
