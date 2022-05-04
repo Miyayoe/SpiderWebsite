@@ -590,6 +590,7 @@ header nav ul li:hover {
   height: 2.5rem;
   position: absolute;
   right: 0;
+  bottom: 5%;
   background-color: #c4c4c4;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -672,6 +673,10 @@ header nav ul li:hover {
 .memberCard .memberImgContainer div img {
   position: absolute;
   z-index: 5;
+}
+
+#memberList-support .memberCard {
+  height: 30rem;
 }
 
 footer {

@@ -29,15 +29,10 @@ window.onload = () => {
     res.data.enforcer.forEach((info) => {
       AddMemberCard(
         {
-          className: info.className,
-          classImg: info.classImg,
-          classColor: info.classColor,
+          class: info.class,
           weapon: info.weapon,
-          weaponImg: info.weaponImg,
           equipment: info.equipment,
-          equipmentImg: info.equipmentImg,
           tag: info.tag,
-          internalStyle: info.internalStyle,
         },
         "memberList-enforcer"
       );
@@ -45,15 +40,10 @@ window.onload = () => {
     res.data.support.forEach((info) => {
       AddMemberCard(
         {
-          className: info.className,
-          classImg: info.classImg,
-          classColor: info.classColor,
+          class: info.class,
           weapon: info.weapon,
-          weaponImg: info.weaponImg,
           equipment: info.equipment,
-          equipmentImg: info.equipmentImg,
           tag: info.tag,
-          internalStyle: info.internalStyle,
         },
         "memberList-support"
       );
@@ -94,18 +84,27 @@ window.onload = () => {
 };
 
 function AddMemberCard(info, id) {
+  let equipment = [];
+  info.equipment.forEach((item) => {
+    equipment.push(`<span> <img src="${item.img}" alt=""> ${item.text}</span>`);
+  });
+
   let html = `<div class="swiper-slide">
     <div class="memberCard">
-      <div class="memberColor"style="background-color:${info.classColor};"></div>
+      <div class="memberColor"style="background-color:${
+        info.class.color
+      };"></div>
       <div class="memberImgContainer">
         <div>
-          <img style="${info.internalStyle}}" src="${info.classImg}" alt="">
+          <img style="${info.class.internalStyle}}" src="${
+    info.class.img
+  }" alt="">
         </div>
       </div>
       <div class="content">
-        <p>${info.className}</p>
-        <span> <img src="${info.weaponImg}" alt=""> ${info.weapon}</span>
-        <span> <img src="${info.equipmentImg}" alt=""> ${info.equipment}</span>
+        <p>${info.class.name}</p>
+        <span> <img src="${info.weapon.img}" alt=""> ${info.weapon.text}</span>
+        ${equipment.join("")}
       </div>
       <div class="tag">
         <p>${info.tag}</p>

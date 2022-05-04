@@ -1,204 +1,539 @@
 {
   "enforcer": [
     {
-      "className": "阿丹臭臭Der",
-      "classImg": "./assets/Images/Class/EW.png",
-      "classColor": "#fe4faa",
-      "weapon": "+12 魂靈迷鏡(五階段)",
-      "weaponImg": "./assets/Images/Weapon/Mirror.png",
-      "equipment": "+11 鍛造21整套骯髒-丹",
-      "equipmentImg": "./assets/Images/Tenebrous/Tenebrous.png",
-      "tag": "輸出",
-      "internalStyle": "transform: translate(10%,35%) scale(2);"
+      "class": {
+        "name": "阿丹臭臭Der",
+        "img": "./assets/Images/Class/EW.png",
+        "color": "#fe4faa",
+        "internalStyle": "transform: translate(10%,35%) scale(2);"
+      },
+      "weapon": {
+        "img": "./assets/Images/Weapon/Mirror.png",
+        "text": "+12 魂靈迷鏡(五階段)"
+      },
+      "equipment": [
+        {
+          "img": "./assets/Images/Tenebrous/Tenebrous.png",
+          "text": "+11 鍛造21整套骯髒-丹"
+        }
+      ],
+      "tag": "輸出"
     },
     {
-      "className": "Eternity Winner",
-      "classImg": "./assets/Images/Class/EW.png",
-      "classColor": "#fe4faa",
-      "weapon": "+12 魂靈迷鏡(五階段)",
-      "weaponImg": "./assets/Images/Weapon/Mirror.png",
-      "equipment": "+11 鍛造21整套泰納",
-      "equipmentImg": "./assets/Images/Tenebrous/Tenebrous.png",
-      "tag": "輸出",
-      "internalStyle": "transform: translate(10%,35%) scale(2);"
+      "class": {
+        "name": "Eternity Winner",
+        "img": "./assets/Images/Class/EW.png",
+        "color": "#fe4faa",
+        "internalStyle": "transform: translate(10%,35%) scale(2);"
+      },
+      "weapon": {
+        "img": "./assets/Images/Weapon/Mirror.png",
+        "text": "+12 魂靈迷鏡(五階段)"
+      },
+      "equipment": [
+        {
+          "img": "./assets/Images/Tenebrous/Tenebrous.png",
+          "text": "+11 鍛造21整套泰納"
+        }
+      ],
+      "tag": "輸出"
     },
     {
-      "className": "Eternity Winner",
-      "classImg": "./assets/Images/Class/EW.png",
-      "classColor": "#fe4faa",
-      "weapon": "+12 魂靈迷鏡(五階段)",
-      "weaponImg": "./assets/Images/Weapon/Mirror.png",
-      "equipment": "+11 鍛造21整套泰納",
-      "equipmentImg": "./assets/Images/Tenebrous/Tenebrous.png",
-      "tag": "輸出",
-      "internalStyle": "transform: translate(10%,35%) scale(2);"
+      "class": {
+        "name": "Eternity Winner",
+        "img": "./assets/Images/Class/EW.png",
+        "color": "#fe4faa",
+        "internalStyle": "transform: translate(10%,35%) scale(2);"
+      },
+      "weapon": {
+        "img": "./assets/Images/Weapon/Mirror.png",
+        "text": "+12 魂靈迷鏡(五階段)"
+      },
+      "equipment": [
+        {
+          "img": "./assets/Images/Tenebrous/Tenebrous.png",
+          "text": "+11 鍛造21整套泰納"
+        }
+      ],
+      "tag": "輸出"
     },
     {
-      "className": "Eternity Winner",
-      "classImg": "./assets/Images/Class/EW.png",
-      "classColor": "#fe4faa",
-      "weapon": "+12 魂靈迷鏡(五階段)",
-      "weaponImg": "./assets/Images/Weapon/Mirror.png",
-      "equipment": "+11 鍛造21整套泰納",
-      "equipmentImg": "./assets/Images/Tenebrous/Tenebrous.png",
-      "tag": "輸出",
-      "internalStyle": "transform: translate(10%,35%) scale(2);"
+      "class": {
+        "name": "Eternity Winner",
+        "img": "./assets/Images/Class/EW.png",
+        "color": "#fe4faa",
+        "internalStyle": "transform: translate(10%,35%) scale(2);"
+      },
+      "weapon": {
+        "img": "./assets/Images/Weapon/Mirror.png",
+        "text": "+12 魂靈迷鏡(五階段)"
+      },
+      "equipment": [
+        {
+          "img": "./assets/Images/Tenebrous/Tenebrous.png",
+          "text": "+11 鍛造21整套泰納"
+        }
+      ],
+      "tag": "輸出"
     },
     {
-      "className": "Eternity Winner",
-      "classImg": "./assets/Images/Class/EW.png",
-      "classColor": "#fe4faa",
-      "weapon": "+12 魂靈迷鏡(五階段)",
-      "weaponImg": "./assets/Images/Weapon/Mirror.png",
-      "equipment": "+11 鍛造21整套泰納",
-      "equipmentImg": "./assets/Images/Tenebrous/Tenebrous.png",
-      "tag": "輸出",
-      "internalStyle": "transform: translate(10%,35%) scale(2);"
+      "class": {
+        "name": "Eternity Winner",
+        "img": "./assets/Images/Class/EW.png",
+        "color": "#fe4faa",
+        "internalStyle": "transform: translate(10%,35%) scale(2);"
+      },
+      "weapon": {
+        "img": "./assets/Images/Weapon/Mirror.png",
+        "text": "+12 魂靈迷鏡(五階段)"
+      },
+      "equipment": [
+        {
+          "img": "./assets/Images/Tenebrous/Tenebrous.png",
+          "text": "+11 鍛造21整套泰納"
+        }
+      ],
+      "tag": "輸出"
     },
     {
-      "className": "Eternity Winner",
-      "classImg": "./assets/Images/Class/EW.png",
-      "classColor": "#fe4faa",
-      "weapon": "+12 魂靈迷鏡(五階段)",
-      "weaponImg": "./assets/Images/Weapon/Mirror.png",
-      "equipment": "+11 鍛造21整套泰納",
-      "equipmentImg": "./assets/Images/Tenebrous/Tenebrous.png",
-      "tag": "輸出",
-      "internalStyle": "transform: translate(10%,35%) scale(2);"
+      "class": {
+        "name": "Eternity Winner",
+        "img": "./assets/Images/Class/EW.png",
+        "color": "#fe4faa",
+        "internalStyle": "transform: translate(10%,35%) scale(2);"
+      },
+      "weapon": {
+        "img": "./assets/Images/Weapon/Mirror.png",
+        "text": "+12 魂靈迷鏡(五階段)"
+      },
+      "equipment": [
+        {
+          "img": "./assets/Images/Tenebrous/Tenebrous.png",
+          "text": "+11 鍛造21整套泰納"
+        }
+      ],
+      "tag": "輸出"
     },
     {
-      "className": "Eternity Winner",
-      "classImg": "./assets/Images/Class/EW.png",
-      "classColor": "#fe4faa",
-      "weapon": "+12 魂靈迷鏡(五階段)",
-      "weaponImg": "./assets/Images/Weapon/Mirror.png",
-      "equipment": "+11 鍛造21整套泰納",
-      "equipmentImg": "./assets/Images/Tenebrous/Tenebrous.png",
-      "tag": "輸出",
-      "internalStyle": "transform: translate(10%,35%) scale(2);"
+      "class": {
+        "name": "Eternity Winner",
+        "img": "./assets/Images/Class/EW.png",
+        "color": "#fe4faa",
+        "internalStyle": "transform: translate(10%,35%) scale(2);"
+      },
+      "weapon": {
+        "img": "./assets/Images/Weapon/Mirror.png",
+        "text": "+12 魂靈迷鏡(五階段)"
+      },
+      "equipment": [
+        {
+          "img": "./assets/Images/Tenebrous/Tenebrous.png",
+          "text": "+11 鍛造21整套泰納"
+        }
+      ],
+      "tag": "輸出"
     },
     {
-      "className": "Eternity Winner",
-      "classImg": "./assets/Images/Class/EW.png",
-      "classColor": "#fe4faa",
-      "weapon": "+12 魂靈迷鏡(五階段)",
-      "weaponImg": "./assets/Images/Weapon/Mirror.png",
-      "equipment": "+11 鍛造21整套泰納",
-      "equipmentImg": "./assets/Images/Tenebrous/Tenebrous.png",
-      "tag": "輸出",
-      "internalStyle": "transform: translate(10%,35%) scale(2);"
+      "class": {
+        "name": "Eternity Winner",
+        "img": "./assets/Images/Class/EW.png",
+        "color": "#fe4faa",
+        "internalStyle": "transform: translate(10%,35%) scale(2);"
+      },
+      "weapon": {
+        "img": "./assets/Images/Weapon/Mirror.png",
+        "text": "+12 魂靈迷鏡(五階段)"
+      },
+      "equipment": [
+        {
+          "img": "./assets/Images/Tenebrous/Tenebrous.png",
+          "text": "+11 鍛造21整套泰納"
+        }
+      ],
+      "tag": "輸出"
     },
     {
-      "className": "Eternity Winner",
-      "classImg": "./assets/Images/Class/EW.png",
-      "classColor": "#fe4faa",
-      "weapon": "+12 魂靈迷鏡(五階段)",
-      "weaponImg": "./assets/Images/Weapon/Mirror.png",
-      "equipment": "+11 鍛造21整套泰納",
-      "equipmentImg": "./assets/Images/Tenebrous/Tenebrous.png",
-      "tag": "輸出",
-      "internalStyle": "transform: translate(10%,35%) scale(2);"
+      "class": {
+        "name": "Eternity Winner",
+        "img": "./assets/Images/Class/EW.png",
+        "color": "#fe4faa",
+        "internalStyle": "transform: translate(10%,35%) scale(2);"
+      },
+      "weapon": {
+        "img": "./assets/Images/Weapon/Mirror.png",
+        "text": "+12 魂靈迷鏡(五階段)"
+      },
+      "equipment": [
+        {
+          "img": "./assets/Images/Tenebrous/Tenebrous.png",
+          "text": "+11 鍛造21整套泰納"
+        }
+      ],
+      "tag": "輸出"
     },
     {
-      "className": "Eternity Winner",
-      "classImg": "./assets/Images/Class/EW.png",
-      "classColor": "#fe4faa",
-      "weapon": "+12 魂靈迷鏡(五階段)",
-      "weaponImg": "./assets/Images/Weapon/Mirror.png",
-      "equipment": "+11 鍛造21整套泰納",
-      "equipmentImg": "./assets/Images/Tenebrous/Tenebrous.png",
-      "tag": "輸出",
-      "internalStyle": "transform: translate(10%,35%) scale(2);"
+      "class": {
+        "name": "Eternity Winner",
+        "img": "./assets/Images/Class/EW.png",
+        "color": "#fe4faa",
+        "internalStyle": "transform: translate(10%,35%) scale(2);"
+      },
+      "weapon": {
+        "img": "./assets/Images/Weapon/Mirror.png",
+        "text": "+12 魂靈迷鏡(五階段)"
+      },
+      "equipment": [
+        {
+          "img": "./assets/Images/Tenebrous/Tenebrous.png",
+          "text": "+11 鍛造21整套泰納"
+        }
+      ],
+      "tag": "輸出"
+    },
+    {
+      "class": {
+        "name": "Eternity Winner",
+        "img": "./assets/Images/Class/EW.png",
+        "color": "#fe4faa",
+        "internalStyle": "transform: translate(10%,35%) scale(2);"
+      },
+      "weapon": {
+        "img": "./assets/Images/Weapon/Mirror.png",
+        "text": "+12 魂靈迷鏡(五階段)"
+      },
+      "equipment": [
+        {
+          "img": "./assets/Images/Tenebrous/Tenebrous.png",
+          "text": "+11 鍛造21整套泰納"
+        }
+      ],
+      "tag": "輸出"
     }
   ],
   "support": [
     {
-      "className": "噁呈墮天使型態",
-      "classImg": "./assets/Images/Class/BL.png",
-      "classColor": "#19d2a8",
-      "weapon": "+12 魂靈鐘擺(五階段)",
-      "weaponImg": "./assets/Images/Weapon/Pendulum.png",
-      "equipment": "團隊10%物/魔攻泰納裝 聖獸綠",
-      "equipmentImg": "./assets/Images/Tenebrous/Tenebrous.png",
-      "tag": "輔助",
-      "internalStyle": "transform: translate(0%,35%) scale(2);"
+      "class": {
+        "name": "噁呈墮天使型態",
+        "img": "./assets/Images/Class/BL.png",
+        "color": "#19d2a8",
+        "internalStyle": "transform: translate(0%,35%) scale(2);"
+      },
+      "weapon": {
+        "img": "./assets/Images/Weapon/Pendulum.png",
+        "text": "+12 魂靈鐘擺(五階段)"
+      },
+      "equipment": [
+        {
+          "img": "./assets/Images/Tenebrous/Tenebrous.png",
+          "text": "團隊10%物/魔攻泰納裝"
+        },
+        {
+          "img": "./assets/Images/Artifac/Artifac_Green.png",
+          "text": "聖獸精靈石套裝(綠)"
+        },
+        {
+          "img": "./assets/Images/placeholder.png",
+          "text": "高戰力純輔"
+        }
+      ],
+      "tag": "控場"
     },
     {
-      "className": "Bluhen",
-      "classImg": "./assets/Images/Class/BL.png",
-      "classColor": "#19d2a8",
-      "weapon": "+12 魂靈鐘擺(五階段)",
-      "weaponImg": "./assets/Images/Weapon/Pendulum.png",
-      "equipment": "團隊10%物/魔攻泰納裝 聖獸綠",
-      "equipmentImg": "./assets/Images/Tenebrous/Tenebrous.png",
-      "tag": "輔助",
-      "internalStyle": "transform: translate(0%,35%) scale(2);"
+      "class": {
+        "name": "Bluhen",
+        "img": "./assets/Images/Class/BL.png",
+        "color": "#19d2a8",
+        "internalStyle": "transform: translate(0%,35%) scale(2);"
+      },
+      "weapon": {
+        "img": "./assets/Images/Weapon/Pendulum.png",
+        "text": "+12 魂靈鐘擺(五階段)"
+      },
+      "equipment": [
+        {
+          "img": "./assets/Images/Tenebrous/Tenebrous.png",
+          "text": "團隊10%物/魔攻泰納裝"
+        },
+        {
+          "img": "./assets/Images/Artifac/Artifac_Green.png",
+          "text": "聖獸精靈石套裝(綠)"
+        },
+        {
+          "img": "./assets/Images/placeholder.png",
+          "text": "高戰力純輔"
+        }
+      ],
+      "tag": "控場"
     },
     {
-      "className": "Bluhen",
-      "classImg": "./assets/Images/Class/BL.png",
-      "classColor": "#19d2a8",
-      "weapon": "+12 魂靈鐘擺(五階段)",
-      "weaponImg": "./assets/Images/Weapon/Pendulum.png",
-      "equipment": "團隊10%物/魔攻泰納裝 聖獸綠",
-      "equipmentImg": "./assets/Images/Tenebrous/Tenebrous.png",
-      "tag": "輔助",
-      "internalStyle": "transform: translate(0%,35%) scale(2);"
+      "class": {
+        "name": "Bluhen",
+        "img": "./assets/Images/Class/BL.png",
+        "color": "#19d2a8",
+        "internalStyle": "transform: translate(0%,35%) scale(2);"
+      },
+      "weapon": {
+        "img": "./assets/Images/Weapon/Pendulum.png",
+        "text": "+12 魂靈鐘擺(五階段)"
+      },
+      "equipment": [
+        {
+          "img": "./assets/Images/Tenebrous/Tenebrous.png",
+          "text": "團隊10%物/魔攻泰納裝"
+        },
+        {
+          "img": "./assets/Images/Artifac/Artifac_Green.png",
+          "text": "聖獸精靈石套裝(綠)"
+        },
+        {
+          "img": "./assets/Images/placeholder.png",
+          "text": "高戰力純輔"
+        }
+      ],
+      "tag": "控場"
     },
     {
-      "className": "Bluhen",
-      "classImg": "./assets/Images/Class/BL.png",
-      "classColor": "#19d2a8",
-      "weapon": "+12 魂靈鐘擺(五階段)",
-      "weaponImg": "./assets/Images/Weapon/Pendulum.png",
-      "equipment": "團隊10%物/魔攻泰納裝 聖獸綠",
-      "equipmentImg": "./assets/Images/Tenebrous/Tenebrous.png",
-      "tag": "輔助",
-      "internalStyle": "transform: translate(0%,35%) scale(2);"
+      "class": {
+        "name": "Bluhen",
+        "img": "./assets/Images/Class/BL.png",
+        "color": "#19d2a8",
+        "internalStyle": "transform: translate(0%,35%) scale(2);"
+      },
+      "weapon": {
+        "img": "./assets/Images/Weapon/Pendulum.png",
+        "text": "+12 魂靈鐘擺(五階段)"
+      },
+      "equipment": [
+        {
+          "img": "./assets/Images/Tenebrous/Tenebrous.png",
+          "text": "團隊10%物/魔攻泰納裝"
+        },
+        {
+          "img": "./assets/Images/Artifac/Artifac_Green.png",
+          "text": "聖獸精靈石套裝(綠)"
+        },
+        {
+          "img": "./assets/Images/placeholder.png",
+          "text": "高戰力純輔"
+        }
+      ],
+      "tag": "控場"
     },
     {
-      "className": "Bluhen",
-      "classImg": "./assets/Images/Class/BL.png",
-      "classColor": "#19d2a8",
-      "weapon": "+12 魂靈鐘擺(五階段)",
-      "weaponImg": "./assets/Images/Weapon/Pendulum.png",
-      "equipment": "團隊10%物/魔攻泰納裝 聖獸綠",
-      "equipmentImg": "./assets/Images/Tenebrous/Tenebrous.png",
-      "tag": "輔助",
-      "internalStyle": "transform: translate(0%,35%) scale(2);"
+      "class": {
+        "name": "Bluhen",
+        "img": "./assets/Images/Class/BL.png",
+        "color": "#19d2a8",
+        "internalStyle": "transform: translate(0%,35%) scale(2);"
+      },
+      "weapon": {
+        "img": "./assets/Images/Weapon/Pendulum.png",
+        "text": "+12 魂靈鐘擺(五階段)"
+      },
+      "equipment": [
+        {
+          "img": "./assets/Images/Tenebrous/Tenebrous.png",
+          "text": "團隊10%物/魔攻泰納裝"
+        },
+        {
+          "img": "./assets/Images/Artifac/Artifac_Green.png",
+          "text": "聖獸精靈石套裝(綠)"
+        },
+        {
+          "img": "./assets/Images/placeholder.png",
+          "text": "高戰力純輔"
+        }
+      ],
+      "tag": "控場"
     },
     {
-      "className": "Bluhen",
-      "classImg": "./assets/Images/Class/BL.png",
-      "classColor": "#19d2a8",
-      "weapon": "+12 魂靈鐘擺(五階段)",
-      "weaponImg": "./assets/Images/Weapon/Pendulum.png",
-      "equipment": "團隊10%物/魔攻泰納裝 聖獸綠",
-      "equipmentImg": "./assets/Images/Tenebrous/Tenebrous.png",
-      "tag": "輔助",
-      "internalStyle": "transform: translate(0%,35%) scale(2);"
+      "class": {
+        "name": "Bluhen",
+        "img": "./assets/Images/Class/BL.png",
+        "color": "#19d2a8",
+        "internalStyle": "transform: translate(0%,35%) scale(2);"
+      },
+      "weapon": {
+        "img": "./assets/Images/Weapon/Pendulum.png",
+        "text": "+12 魂靈鐘擺(五階段)"
+      },
+      "equipment": [
+        {
+          "img": "./assets/Images/Tenebrous/Tenebrous.png",
+          "text": "團隊10%物/魔攻泰納裝"
+        },
+        {
+          "img": "./assets/Images/Artifac/Artifac_Green.png",
+          "text": "聖獸精靈石套裝(綠)"
+        },
+        {
+          "img": "./assets/Images/placeholder.png",
+          "text": "高戰力純輔"
+        }
+      ],
+      "tag": "控場"
     },
     {
-      "className": "Bluhen",
-      "classImg": "./assets/Images/Class/BL.png",
-      "classColor": "#19d2a8",
-      "weapon": "+12 魂靈鐘擺(五階段)",
-      "weaponImg": "./assets/Images/Weapon/Pendulum.png",
-      "equipment": "團隊10%物/魔攻泰納裝 聖獸綠",
-      "equipmentImg": "./assets/Images/Tenebrous/Tenebrous.png",
-      "tag": "輔助",
-      "internalStyle": "transform: translate(0%,35%) scale(2);"
+      "class": {
+        "name": "Bluhen",
+        "img": "./assets/Images/Class/BL.png",
+        "color": "#19d2a8",
+        "internalStyle": "transform: translate(0%,35%) scale(2);"
+      },
+      "weapon": {
+        "img": "./assets/Images/Weapon/Pendulum.png",
+        "text": "+12 魂靈鐘擺(五階段)"
+      },
+      "equipment": [
+        {
+          "img": "./assets/Images/Tenebrous/Tenebrous.png",
+          "text": "團隊10%物/魔攻泰納裝"
+        },
+        {
+          "img": "./assets/Images/Artifac/Artifac_Green.png",
+          "text": "聖獸精靈石套裝(綠)"
+        },
+        {
+          "img": "./assets/Images/placeholder.png",
+          "text": "高戰力純輔"
+        }
+      ],
+      "tag": "控場"
     },
     {
-      "className": "Bluhen",
-      "classImg": "./assets/Images/Class/BL.png",
-      "classColor": "#19d2a8",
-      "weapon": "+12 魂靈鐘擺(五階段)",
-      "weaponImg": "./assets/Images/Weapon/Pendulum.png",
-      "equipment": "團隊10%物/魔攻泰納裝 聖獸綠",
-      "equipmentImg": "./assets/Images/Tenebrous/Tenebrous.png",
-      "tag": "輔助",
-      "internalStyle": "transform: translate(0%,35%) scale(2);"
+      "class": {
+        "name": "Bluhen",
+        "img": "./assets/Images/Class/BL.png",
+        "color": "#19d2a8",
+        "internalStyle": "transform: translate(0%,35%) scale(2);"
+      },
+      "weapon": {
+        "img": "./assets/Images/Weapon/Pendulum.png",
+        "text": "+12 魂靈鐘擺(五階段)"
+      },
+      "equipment": [
+        {
+          "img": "./assets/Images/Tenebrous/Tenebrous.png",
+          "text": "團隊10%物/魔攻泰納裝"
+        },
+        {
+          "img": "./assets/Images/Artifac/Artifac_Green.png",
+          "text": "聖獸精靈石套裝(綠)"
+        },
+        {
+          "img": "./assets/Images/placeholder.png",
+          "text": "高戰力純輔"
+        }
+      ],
+      "tag": "控場"
+    },
+    {
+      "class": {
+        "name": "Bluhen",
+        "img": "./assets/Images/Class/BL.png",
+        "color": "#19d2a8",
+        "internalStyle": "transform: translate(0%,35%) scale(2);"
+      },
+      "weapon": {
+        "img": "./assets/Images/Weapon/Pendulum.png",
+        "text": "+12 魂靈鐘擺(五階段)"
+      },
+      "equipment": [
+        {
+          "img": "./assets/Images/Tenebrous/Tenebrous.png",
+          "text": "團隊10%物/魔攻泰納裝"
+        },
+        {
+          "img": "./assets/Images/Artifac/Artifac_Green.png",
+          "text": "聖獸精靈石套裝(綠)"
+        },
+        {
+          "img": "./assets/Images/placeholder.png",
+          "text": "高戰力純輔"
+        }
+      ],
+      "tag": "控場"
+    },
+    {
+      "class": {
+        "name": "Bluhen",
+        "img": "./assets/Images/Class/BL.png",
+        "color": "#19d2a8",
+        "internalStyle": "transform: translate(0%,35%) scale(2);"
+      },
+      "weapon": {
+        "img": "./assets/Images/Weapon/Pendulum.png",
+        "text": "+12 魂靈鐘擺(五階段)"
+      },
+      "equipment": [
+        {
+          "img": "./assets/Images/Tenebrous/Tenebrous.png",
+          "text": "團隊10%物/魔攻泰納裝"
+        },
+        {
+          "img": "./assets/Images/Artifac/Artifac_Green.png",
+          "text": "聖獸精靈石套裝(綠)"
+        },
+        {
+          "img": "./assets/Images/placeholder.png",
+          "text": "高戰力純輔"
+        }
+      ],
+      "tag": "控場"
+    },
+    {
+      "class": {
+        "name": "Bluhen",
+        "img": "./assets/Images/Class/BL.png",
+        "color": "#19d2a8",
+        "internalStyle": "transform: translate(0%,35%) scale(2);"
+      },
+      "weapon": {
+        "img": "./assets/Images/Weapon/Pendulum.png",
+        "text": "+12 魂靈鐘擺(五階段)"
+      },
+      "equipment": [
+        {
+          "img": "./assets/Images/Tenebrous/Tenebrous.png",
+          "text": "團隊10%物/魔攻泰納裝"
+        },
+        {
+          "img": "./assets/Images/Artifac/Artifac_Green.png",
+          "text": "聖獸精靈石套裝(綠)"
+        },
+        {
+          "img": "./assets/Images/placeholder.png",
+          "text": "高戰力純輔"
+        }
+      ],
+      "tag": "控場"
+    },
+    {
+      "class": {
+        "name": "Bluhen",
+        "img": "./assets/Images/Class/BL.png",
+        "color": "#19d2a8",
+        "internalStyle": "transform: translate(0%,35%) scale(2);"
+      },
+      "weapon": {
+        "img": "./assets/Images/Weapon/Pendulum.png",
+        "text": "+12 魂靈鐘擺(五階段)"
+      },
+      "equipment": [
+        {
+          "img": "./assets/Images/Tenebrous/Tenebrous.png",
+          "text": "團隊10%物/魔攻泰納裝"
+        },
+        {
+          "img": "./assets/Images/Artifac/Artifac_Green.png",
+          "text": "聖獸精靈石套裝(綠)"
+        },
+        {
+          "img": "./assets/Images/placeholder.png",
+          "text": "高戰力純輔"
+        }
+      ],
+      "tag": "控場"
     }
   ]
 }

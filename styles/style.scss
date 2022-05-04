@@ -448,6 +448,7 @@ header {
     height: 2.5rem;
     position: absolute;
     right: 0;
+    bottom: 5%;
     background-color: #c4c4c4;
     display: flex;
     justify-content: center;
@@ -505,6 +506,11 @@ header {
   }
 }
 
+#memberList-support {
+  .memberCard {
+    height: 30rem;
+  }
+}
 footer {
   display: flex;
   align-items: center;
