@@ -41,11 +41,16 @@ header {
       display: flex;
       align-items: center;
       flex: 5 1 400px;
-      margin: 0 3rem 0 2rem;
-    }
-    img {
-      width: 4vw;
-      margin-right: 1rem;
+      margin: 0rem 3rem 0 2rem;
+
+      h1 {
+        font-family: "./assets/Fonts/jf-openhuninn-1.1.ttf";
+        color: white;
+      }
+      img {
+        width: 4vw;
+        margin-right: 1rem;
+      }
     }
   }
   nav {
@@ -530,6 +535,11 @@ footer {
   header {
     div {
       &.logo {
+        padding-top: 1rem;
+        h1 {
+          font-size: 1.5rem;
+          color: white;
+        }
         img {
           width: 8vw;
         }

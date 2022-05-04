@@ -58,10 +58,15 @@ header div.logo {
   -webkit-box-flex: 5;
       -ms-flex: 5 1 400px;
           flex: 5 1 400px;
-  margin: 0 3rem 0 2rem;
+  margin: 0rem 3rem 0 2rem;
 }
 
-header div img {
+header div.logo h1 {
+  font-family: "./assets/Fonts/jf-openhuninn-1.1.ttf";
+  color: white;
+}
+
+header div.logo img {
   width: 4vw;
   margin-right: 1rem;
 }
@@ -705,6 +710,13 @@ footer p {
 }
 
 @media screen and (max-width: 900px) {
+  header div.logo {
+    padding-top: 1rem;
+  }
+  header div.logo h1 {
+    font-size: 1.5rem;
+    color: white;
+  }
   header div.logo img {
     width: 8vw;
   }
