@@ -294,7 +294,7 @@ header nav ul li:hover {
   font-size: 5rem;
   color: white;
   margin: 1rem;
-  font-family: "../assets/Fonts/TaipeiSansTCBeta-Bold.ttf", sans-serif;
+  font-family: var(--TaipeiSansTC-Bold);
   font-weight: bold;
 }
 
@@ -302,7 +302,7 @@ header nav ul li:hover {
   font-size: 1.75rem;
   font-weight: 100;
   color: white;
-  font-family: "../assets/Fonts/TaipeiSansTCBeta-Regular.ttf", sans-serif;
+  font-family: var(--TaipeiSansTC);
 }
 
 #backImage a.start {
@@ -314,7 +314,7 @@ header nav ul li:hover {
   text-decoration: none;
   border-radius: 1rem;
   cursor: pointer;
-  font-family: "../assets/Fonts/TaipeiSansTCBeta-Regular.ttf", sans-serif;
+  font-family: var(--TaipeiSansTC);
 }
 
 #backImage a.start:hover {

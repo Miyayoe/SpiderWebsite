@@ -209,14 +209,14 @@ header {
     font-size: 5rem;
     color: white;
     margin: 1rem;
-    font-family: "../assets/Fonts/TaipeiSansTCBeta-Bold.ttf", sans-serif;
+    font-family: var(--TaipeiSansTC-Bold);
     font-weight: bold;
   }
   h4 {
     font-size: 1.75rem;
     font-weight: 100;
     color: white;
-    font-family: "../assets/Fonts/TaipeiSansTCBeta-Regular.ttf", sans-serif;
+    font-family: var(--TaipeiSansTC);
   }
   a {
     &.start {
@@ -228,7 +228,7 @@ header {
       text-decoration: none;
       border-radius: 1rem;
       cursor: pointer;
-      font-family: "../assets/Fonts/TaipeiSansTCBeta-Regular.ttf", sans-serif;
+      font-family: var(--TaipeiSansTC);
     }
     &.start:hover {
       background-color: #04b0d6;
