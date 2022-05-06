@@ -121,11 +121,11 @@
       "equipment": [
         {
           "img": "./assets/Images/Tenebrous/Tenebrous.png",
-          "text": "+11 泰納鍛造 上 19 手 19"
+          "text": "+11 泰納鍛造 上 18 手 20"
         },
         {
           "img": "./assets/Images/Amethystine/Extreme.png",
-          "text": "+11 虹霓鍛造 下 21 鞋 21"
+          "text": "+11 虹霓鍛造21整套"
         }
       ],
       "tag": "輸出"
