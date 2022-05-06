@@ -2,25 +2,6 @@
   "enforcer": [
     {
       "class": {
-        "name": "阿丹臭臭Der",
-        "img": "./assets/Images/Class/EW.png",
-        "color": "#fe4faa",
-        "internalStyle": "transform: translate(10%,35%) scale(2);"
-      },
-      "weapon": {
-        "img": "./assets/Images/Weapon/Mirror.png",
-        "text": "+12 魂靈迷鏡(五階段)"
-      },
-      "equipment": [
-        {
-          "img": "./assets/Images/Tenebrous/Tenebrous.png",
-          "text": "+11 鍛造21整套骯髒-丹"
-        }
-      ],
-      "tag": "輸出"
-    },
-    {
-      "class": {
         "name": "Eternity Winner",
         "img": "./assets/Images/Class/EW.png",
         "color": "#fe4faa",
@@ -33,211 +14,162 @@
       "equipment": [
         {
           "img": "./assets/Images/Tenebrous/Tenebrous.png",
-          "text": "+11 鍛造21整套泰納"
+          "text": "+11 泰納鍛造21整套"
+        },
+        {
+          "img": "./assets/Images/Tenebrous/Tenebrous_Gloves.png",
+          "text": "+12 泰納鍛造21手套"
         }
       ],
       "tag": "輸出"
     },
     {
       "class": {
-        "name": "Eternity Winner",
-        "img": "./assets/Images/Class/EW.png",
-        "color": "#fe4faa",
-        "internalStyle": "transform: translate(10%,35%) scale(2);"
+        "name": "Centurion",
+        "img": "./assets/Images/Class/CET.png",
+        "color": "#99ccff",
+        "internalStyle": "transform: translate(50%,-10%) scale(2.5);"
       },
       "weapon": {
-        "img": "./assets/Images/Weapon/Mirror.png",
-        "text": "+12 魂靈迷鏡(五階段)"
+        "img": "./assets/Images/Weapon/Cannon.png",
+        "text": "+12 魂靈鐵砲(五階段)"
       },
       "equipment": [
         {
           "img": "./assets/Images/Tenebrous/Tenebrous.png",
-          "text": "+11 鍛造21整套泰納"
+          "text": "+11 泰納鍛造15 15 17 15"
         }
       ],
       "tag": "輸出"
     },
     {
       "class": {
-        "name": "Eternity Winner",
-        "img": "./assets/Images/Class/EW.png",
-        "color": "#fe4faa",
-        "internalStyle": "transform: translate(10%,35%) scale(2);"
+        "name": "Code: Antithese",
+        "img": "./assets/Images/Class/CA.png",
+        "color": "#ff93ae",
+        "internalStyle": "transform: translate(-10%,60%) scale(2.5);"
       },
       "weapon": {
-        "img": "./assets/Images/Weapon/Mirror.png",
-        "text": "+12 魂靈迷鏡(五階段)"
+        "img": "./assets/Images/Weapon/Drones.png",
+        "text": "+12 魂靈核心(五階段)"
       },
       "equipment": [
         {
           "img": "./assets/Images/Tenebrous/Tenebrous.png",
-          "text": "+11 鍛造21整套泰納"
+          "text": "+11 泰納鍛造 上 21 手 21"
+        },
+        {
+          "img": "./assets/Images/Amethystine/Extreme.png",
+          "text": "+11 虹霓鍛造 下 21 鞋 21"
         }
       ],
       "tag": "輸出"
     },
     {
       "class": {
-        "name": "Eternity Winner",
-        "img": "./assets/Images/Class/EW.png",
-        "color": "#fe4faa",
-        "internalStyle": "transform: translate(10%,35%) scale(2);"
+        "name": "Daybreaker",
+        "img": "./assets/Images/Class/DAB.png",
+        "color": "#41d941",
+        "internalStyle": "transform: translate(50%,20%) scale(2.5);"
       },
       "weapon": {
-        "img": "./assets/Images/Weapon/Mirror.png",
-        "text": "+12 魂靈迷鏡(五階段)"
+        "img": "./assets/Images/Weapon/Bow.png",
+        "text": "+12 魂靈戰弓(五階段)"
       },
       "equipment": [
         {
           "img": "./assets/Images/Tenebrous/Tenebrous.png",
-          "text": "+11 鍛造21整套泰納"
+          "text": "+11 泰納鍛造 15 15 17 15"
         }
       ],
       "tag": "輸出"
     },
     {
       "class": {
-        "name": "Eternity Winner",
-        "img": "./assets/Images/Class/EW.png",
-        "color": "#fe4faa",
-        "internalStyle": "transform: translate(10%,35%) scale(2);"
+        "name": "Celestia",
+        "img": "./assets/Images/Class/CEL.png",
+        "color": "#414482",
+        "internalStyle": "transform: translate(0%,0%) scale(3);"
       },
       "weapon": {
-        "img": "./assets/Images/Weapon/Mirror.png",
-        "text": "+12 魂靈迷鏡(五階段)"
+        "img": "./assets/Images/Weapon/Sickle.png",
+        "text": "+12 魂靈鐮刀(五階段)"
       },
       "equipment": [
         {
-          "img": "./assets/Images/Tenebrous/Tenebrous.png",
-          "text": "+11 鍛造21整套泰納"
+          "img": "./assets/Images/Amethystine/Extreme.png",
+          "text": "+11 泰納鍛造 上 19 手 19"
+        },
+        {
+          "img": "./assets/Images/Amethystine/Extreme.png",
+          "text": "+11 虹霓鍛造 下 21 鞋 21"
         }
       ],
       "tag": "輸出"
     },
     {
       "class": {
-        "name": "Eternity Winner",
-        "img": "./assets/Images/Class/EW.png",
-        "color": "#fe4faa",
-        "internalStyle": "transform: translate(10%,35%) scale(2);"
+        "name": "Rune Master",
+        "img": "./assets/Images/Class/RM.png",
+        "color": "#db2f2f",
+        "internalStyle": "transform: translate(45%,20%) scale(2.5);"
       },
       "weapon": {
-        "img": "./assets/Images/Weapon/Mirror.png",
-        "text": "+12 魂靈迷鏡(五階段)"
+        "img": "./assets/Images/Weapon/Sickle.png",
+        "text": "+12 魂靈鐮刀(五階段)"
       },
       "equipment": [
         {
-          "img": "./assets/Images/Tenebrous/Tenebrous.png",
-          "text": "+11 鍛造21整套泰納"
+          "img": "./assets/Images/Amethystine/Extreme.png",
+          "text": "+11 泰納鍛造 上 19 手 19"
+        },
+        {
+          "img": "./assets/Images/Amethystine/Extreme.png",
+          "text": "+11 虹霓鍛造 下 21 鞋 21"
         }
       ],
       "tag": "輸出"
     },
     {
       "class": {
-        "name": "Eternity Winner",
-        "img": "./assets/Images/Class/EW.png",
-        "color": "#fe4faa",
-        "internalStyle": "transform: translate(10%,35%) scale(2);"
+        "name": "Code: Antithese",
+        "img": "./assets/Images/Class/CA.png",
+        "color": "#ff93ae",
+        "internalStyle": "transform: translate(-10%,60%) scale(2.5);"
       },
       "weapon": {
-        "img": "./assets/Images/Weapon/Mirror.png",
-        "text": "+12 魂靈迷鏡(五階段)"
+        "img": "./assets/Images/Weapon/Drones.png",
+        "text": "+12 魂靈核心(五階段)"
       },
       "equipment": [
         {
-          "img": "./assets/Images/Tenebrous/Tenebrous.png",
-          "text": "+11 鍛造21整套泰納"
+          "img": "./assets/Images/Amethystine/Extreme.png",
+          "text": "+11 虹霓鍛造21整套"
         }
       ],
       "tag": "輸出"
     },
     {
       "class": {
-        "name": "Eternity Winner",
-        "img": "./assets/Images/Class/EW.png",
-        "color": "#fe4faa",
-        "internalStyle": "transform: translate(10%,35%) scale(2);"
+        "name": "Celestia",
+        "img": "./assets/Images/Class/CEL.png",
+        "color": "#414482",
+        "internalStyle": "transform: translate(0%,0%) scale(3);"
       },
       "weapon": {
-        "img": "./assets/Images/Weapon/Mirror.png",
-        "text": "+12 魂靈迷鏡(五階段)"
+        "img": "./assets/Images/Weapon/Sickle.png",
+        "text": "+12 魂靈鐮刀(五階段)"
       },
       "equipment": [
         {
-          "img": "./assets/Images/Tenebrous/Tenebrous.png",
-          "text": "+11 鍛造21整套泰納"
-        }
-      ],
-      "tag": "輸出"
-    },
-    {
-      "class": {
-        "name": "Eternity Winner",
-        "img": "./assets/Images/Class/EW.png",
-        "color": "#fe4faa",
-        "internalStyle": "transform: translate(10%,35%) scale(2);"
-      },
-      "weapon": {
-        "img": "./assets/Images/Weapon/Mirror.png",
-        "text": "+12 魂靈迷鏡(五階段)"
-      },
-      "equipment": [
-        {
-          "img": "./assets/Images/Tenebrous/Tenebrous.png",
-          "text": "+11 鍛造21整套泰納"
-        }
-      ],
-      "tag": "輸出"
-    },
-    {
-      "class": {
-        "name": "Eternity Winner",
-        "img": "./assets/Images/Class/EW.png",
-        "color": "#fe4faa",
-        "internalStyle": "transform: translate(10%,35%) scale(2);"
-      },
-      "weapon": {
-        "img": "./assets/Images/Weapon/Mirror.png",
-        "text": "+12 魂靈迷鏡(五階段)"
-      },
-      "equipment": [
-        {
-          "img": "./assets/Images/Tenebrous/Tenebrous.png",
-          "text": "+11 鍛造21整套泰納"
+          "img": "./assets/Images/Amethystine/Extreme.png",
+          "text": "+11 虹霓鍛造21整套"
         }
       ],
       "tag": "輸出"
     }
   ],
   "support": [
-    {
-      "class": {
-        "name": "噁呈墮天使型態",
-        "img": "./assets/Images/Class/BL.png",
-        "color": "#19d2a8",
-        "internalStyle": "transform: translate(0%,35%) scale(2);"
-      },
-      "weapon": {
-        "img": "./assets/Images/Weapon/Pendulum.png",
-        "text": "+12 魂靈鐘擺(五階段)"
-      },
-      "equipment": [
-        {
-          "img": "./assets/Images/Tenebrous/Tenebrous.png",
-          "text": "團隊10%物/魔攻泰納裝"
-        },
-        {
-          "img": "./assets/Images/Artifac/Artifac_Green.png",
-          "text": "聖獸精靈石套裝(綠)"
-        },
-        {
-          "img": "./assets/Images/placeholder.png",
-          "text": "高戰力純輔"
-        }
-      ],
-      "tag": "控場"
-    },
     {
       "class": {
         "name": "Bluhen",
