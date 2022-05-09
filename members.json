@@ -115,8 +115,8 @@
         "internalStyle": "transform: translate(45%,20%) scale(2.5);"
       },
       "weapon": {
-        "img": "./assets/Images/Weapon/Sickle.png",
-        "text": "+12 魂靈鐮刀(五階段)"
+        "img": "./assets/Images/Weapon/Sword.png",
+        "text": "+12 魂靈大劍(五階段)"
       },
       "equipment": [
         {
