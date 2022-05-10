@@ -40,7 +40,7 @@ header {
     &.logo {
       display: flex;
       align-items: center;
-      flex: 5 0 400px;
+      flex: 5 1 400px;
       margin: 0rem 3rem 0 2rem;
 
       h1 {
@@ -54,7 +54,7 @@ header {
     }
   }
   nav {
-    flex: 1.75 0 auto;
+    flex: 1.75 1 auto;
     padding-right: 1rem;
 
     button {
