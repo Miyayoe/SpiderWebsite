@@ -17,6 +17,7 @@ function getPosition(element) {
 }
 var swiper;
 window.onload = () => {
+  document.querySelector("#loadPage").classList.toggle("active");
   let listButton = document.querySelector("#listButton");
   listButton.addEventListener("click", () => {
     document.querySelector("header nav").classList.toggle("active");
