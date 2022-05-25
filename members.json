@@ -25,6 +25,29 @@
     },
     {
       "class": {
+        "name": "Fatal Phantom",
+        "img": "./assets/Images/Class/FP.png",
+        "color": "#99ccff",
+        "internalStyle": "transform: translate(50%,50%) scale(2.5);"
+      },
+      "weapon": {
+        "img": "./assets/Images/Weapon/Cannon.png",
+        "text": "+12 魂靈鐵砲(五階段)"
+      },
+      "equipment": [
+        {
+          "img": "./assets/Images/Tenebrous/Tenebrous.png",
+          "text": "+11 泰納鍛造21整套"
+        },
+        {
+          "img": "./assets/Images/Tenebrous/Tenebrous_Gloves.png",
+          "text": "+12 泰納鍛造21手套"
+        }
+      ],
+      "tag": "輸出"
+    },
+    {
+      "class": {
         "name": "Centurion",
         "img": "./assets/Images/Class/CET.png",
         "color": "#99ccff",
